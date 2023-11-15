@@ -1,0 +1,143 @@
+.hero{
+    height: fit-content;
+    background-image: url("../assets/images/environmental-pollution-industry-exterior-daylight2.jpg");
+    background-size: cover;
+    margin-top: 79px;
+}
+.overlay{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.51);
+    color: white;
+    padding: 0px 10%;
+    row-gap: 15px;
+}
+.overlay h1{
+    font-size: 35px;
+}
+.overlay p{
+    border-left: 5px solid white;
+    padding:  10px;
+    width: 400px;
+    color: whitesmoke;
+}
+.overlay button{
+    background-color: var(--red);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: 0px;
+}
+.overlay button:hover{
+    cursor: pointer;
+    transition: 500ms;
+    background-color: var(--hover);
+}
+
+.history{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+}
+.history h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--red);
+}
+.history h3{
+    width: 65%;
+    font-weight: 500;
+    font-size: 16px;
+}
+.history p{
+    width: 80%;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(91, 91, 91);
+}
+.history button{
+    background-color: whitesmoke;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.history button:hover{
+    transition: 500ms;
+    column-gap: 20px;
+}
+.history button svg{
+    background-color: var(--red);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 6px;
+}
+
+@media(max-width: 1300px){
+    .overlay{
+        padding: 0px 5%;
+    }
+    .history{
+        padding: 100px 5%;
+    }
+}
+@media(max-width: 1000px){
+    .history h3{
+        width: 80%;
+    }
+    .history p{
+        width: 100%;
+    }
+}
+@media(max-width: 750px){
+    .history h2{
+        font-size: 25px;
+    }
+    .history{
+        padding: 80px 5%;
+    }
+    .overlay h1{
+        font-size: 30px;
+    }
+    .overlay button{
+        padding: 10px 20px;
+    }
+    .overlay p{
+        font-size: 14px;
+    }
+    .history h3{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .overlay p{
+        width: 100%;
+    }
+    .overlay{
+        height: 80vh;
+    }
+}
+@media(max-width: 450px){
+    .overlay h1{
+        font-size: 25px;
+    }
+    .overlay button{
+        font-size: 13px;
+    }
+    .overlay{
+        height: 80vh;
+    }
+    .history h2{
+        font-size: 20px;
+    }
+}
