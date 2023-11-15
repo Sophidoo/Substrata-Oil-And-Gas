@@ -1,0 +1,124 @@
+nav{
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+    background-color: white;
+}
+nav .logo img{
+    width: 120px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14.5px;
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+nav .services{
+    position: relative;
+}
+nav .services p{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+nav .services p:hover{
+    color: var(--red);
+}
+nav .services .showServices{
+    position: fixed;
+    top: 80px;
+    display: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* left: 0px; */
+    margin-left: -5%;
+    box-shadow: 0px 0px 20px rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+}
+.showServices{
+    display: flex;
+}
+nav .services a{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px;
+    font-size: 14px;
+}
+nav a:hover{
+    cursor: pointer;
+    color: var(--red);
+}
+nav .services a:last-child{
+    border: 0px;
+}
+nav button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: var(--red);
+    color: white;
+    cursor: pointer;
+}
+nav button:hover{
+    transition: 500ms;
+    border-radius: 5px;
+    background-color: var(--hover);
+    transition-timing-function: ease-in-out;
+}
+.menu-icon{
+    display: none;
+}
+
+@media(max-width: 1300px){
+    nav{
+        padding: 20px 5%    ;
+    }
+}
+@media(max-width: 750px){
+    nav{
+        height: fit-content;
+        align-items: center;
+    }
+    .menu-icon{
+        font-size: 20px;
+    }
+    nav .menu{
+        height: fit-content;
+        position: fixed;
+        top: 78px;
+        flex-direction: column;
+        row-gap: 30px;
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0px 0px 20px rgb(234, 234, 234);
+        right: 0px;
+        border-radius: 0px;
+        align-items: flex-start;
+        width: 350px;
+    }
+    nav a{
+        width: 100%;
+    }
+    nav .services .showServices{
+        position: static;
+        box-shadow: none;
+        padding-bottom: 0px;
+    }
+    nav button{
+        margin-top: -10px;
+        width: 100% !important;
+    }
+    .menu-icon{
+        display: flex;
+    }
+}
+@media(max-width: 360px){
+    nav .menu{
+        width: 100%;
+    }
+}
