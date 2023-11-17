@@ -20,7 +20,7 @@ const ServiceCard1 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: 0} : {opacity: 0}}
                     initial={{opacity: 0, y:100}}
-                    transition={{duration: 1, ease: "easeIn", type: "keyframes"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <img src={circle} alt="" />
                 </motion.div>
@@ -29,7 +29,7 @@ const ServiceCard1 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: 0} : {opacity: 0}}
                     initial={{opacity: 0, y:100}}
-                    transition={{duration: 1, ease: "easeIn", type: "keyframes"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <h3>Engineering Design</h3>
                 </motion.div>
@@ -37,7 +37,7 @@ const ServiceCard1 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: 0} : {opacity: 0}}
                     initial={{opacity: 0, y:100}}
-                    transition={{duration: 1, ease: "easeIn", type: "keyframes"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <p>We undertake a wide range of Engineering, Procurement and Project management tasks for oil exploration and production facilities, gas production and processing facilities, separation, liquefaction and oil refining. Our professional approach places us first on the list when considering new tasks or technologies.
                     Projects we have executed include engineering analysis, procurement assistance and project management services. Our approach is always flexible, ensuring our esteemed clients satisfaction.</p>
@@ -46,7 +46,7 @@ const ServiceCard1 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: 0} : {opacity: 0}}
                     initial={{opacity: 0, y:100}}
-                    transition={{duration: 1, ease: "easeIn", type: "keyframes"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
 
                     <button>Learn More <FaArrowRight/></button>

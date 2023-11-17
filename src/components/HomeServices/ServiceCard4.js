@@ -19,7 +19,7 @@ const ServiceCard4 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <img src={circle} alt="" />
                 </motion.div>
@@ -27,7 +27,7 @@ const ServiceCard4 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <h3>Produced Water Management Services</h3>
                 </motion.div>
@@ -35,7 +35,7 @@ const ServiceCard4 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
                 </motion.div>
@@ -43,7 +43,7 @@ const ServiceCard4 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn"}}
+                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
                 >
                     <button>Learn More <FaArrowRight/></button>
                 </motion.div>
