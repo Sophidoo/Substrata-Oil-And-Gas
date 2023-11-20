@@ -1,0 +1,202 @@
+.contactWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+    padding: 80px 12%;
+}
+.leftContact{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.contactInfo p{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.contactInfo span{
+    font-size: 16px;
+}
+.contactInfo svg{
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 5px;
+}
+.contactHeading{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.leftContact h1{
+    color: var(--blue);
+}
+.leftContact hr{
+    width: 70px;
+    border: 1px solid var(--blue);
+    margin-top: -5px;
+}
+.leftContact p{
+    font-size: 15px;
+}
+.rightContact{
+    width: 47%;
+    height: fit-content;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.rightContact h2{
+    color: white;
+}
+.rightContact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.rightContact form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    border: 1px solid white;
+}
+.rightContact form input:focus{
+    border: 1px solid var(--blue);
+}
+.rightContact form textarea{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    border: 1px solid white;
+    resize: vertical;
+}
+.rightContact form textarea:focus{
+    border: 1px solid var(--blue);
+    
+}
+.rightContact form .inputWrapper{
+    display: flex;
+    column-gap: 5px;
+}
+.rightContact form .inputWrapper input{
+    width: 50%;
+}
+.rightContact form button{
+    padding: 10px;
+    background-color: var(--hover);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.rightContact form button:hover{
+    cursor: pointer;
+    transition: 500ms;
+    background-color: var(--red);
+}
+.contactInfo h2{
+    font-size: 20px;
+    margin-bottom: -8px;
+}
+
+.map{
+    height: fit-content;
+    margin-bottom: -100px;
+}
+
+@media(max-width: 1300px){
+    .contactWrapper{
+        padding: 80px 5%;
+    }
+}
+@media(max-width: 1000px){
+    .rightContact{
+        width: 50%;
+    }
+    .leftContact{
+        width: 48%;
+    }
+}
+@media(max-width: 850px){
+    .contactWrapper{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .leftContact{
+        width: 100%;
+    }
+    .rightContact{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .contactWrapper{
+        padding-top: 60px;
+    }
+    .contactHeading h1{
+        font-size: 27px;
+    }
+    .contactHeading p{
+        font-size: 14px;
+    }
+    .contactInfo svg{
+        width: 40px;
+        height: 40px;
+    }
+    .contactInfo span{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .rightContact .inputWrapper{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .rightContact form .inputWrapper input{
+        width: 100%;
+    }
+    .rightContact{
+        border-radius: 0px;
+        padding: 20px;
+    }
+}
+@media(max-width: 450px){
+    .contactInfo svg{
+        width: 35px;
+        height: 35px;
+    }
+    .contactHeading h1{
+        font-size: 25px;
+    }
+    .contactHeading p{
+        font-size: 13px;
+    }
+    .contactInfo span{
+        font-size: 14px;
+        width: 70%;
+        text-wrap: wrap;
+    }
+    .contactInfo h2{
+        font-size: 16px;
+        color: black;
+    }
+}
