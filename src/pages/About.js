@@ -1,4 +1,7 @@
 import Navbar from "../components/Navbar"
+import "../styles/About.css"
+import Footer from "../components/Footer";
+import { FaHandshake } from "react-icons/fa6";
 
 const About = () => {
     
@@ -48,6 +51,7 @@ const About = () => {
             <h2>Our Corporate values</h2>
             <div className="valuesCardWrapper">
                 <div className="valuesCard">
+                <FaHandshake/>
                     <h3>Integrity</h3>
                     <p>At our core, integrity defines us. We are dedicated to upholding unwavering honesty and ethical principles, ensuring trust and delivering excellence in all aspects of our operations, cultivating enduring and meaningful partnerships.</p>
                 </div>
@@ -69,8 +73,7 @@ const About = () => {
                 </div>
             </div>
         </section>
-
-        <Footer/>
+    <Footer/>
     </>
 
 }
