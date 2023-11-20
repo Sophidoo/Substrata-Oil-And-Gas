@@ -5,42 +5,42 @@ import {RiTwitterXFill} from "react-icons/ri"
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {ImLocation} from "react-icons/im"
 import "../styles/components/Footer.css"
+import logo from "../assets/images/SOGLogo_2-removebg-preview 1.png"
 
 const Footer = () => {
 
     return<>
         <footer>
             <ul className="companyInfo">
-            <img src="" alt="" />
-                <p>Unix Training Academy is a full-featured Unix/Linux training with everything you need to learn Linux System Administration and new IT skills in DevOps, AWS, and many more resources</p>
+            <img src={logo} alt="" />
+            <h3>Substrata Oil And Gas</h3>
+                <p>Created by a group of experienced industry Professionals to ensure quality services are available at cost effective and efficient rates to operators in the Oil and Gas industry in Nigeria.</p>
             </ul>
 
             <ul>
-                <h3>Links</h3>
+                <h3>Our Services</h3>
                 <ul className="footer_menu">
-                    <NavLink to={"/"}>Home</NavLink>
-                    <NavLink to={"/about"}>About Us</NavLink>
-                    <NavLink to={"/faq"}>FAQ's</NavLink>
-                    <NavLink to={"/contact"}>Contact Us</NavLink>
-                    <NavLink>Privacy Policy</NavLink>
-                    <NavLink>Terms and Coniditions</NavLink>
+                    <NavLink to={"/"}>Drilling Services</NavLink>
+                    <NavLink to={"/about"}>Seismic Data Proccessing</NavLink>
+                    <NavLink to={"/faq"}>Engineering Services</NavLink>
+                    <NavLink to={"/contact"}>Well Services</NavLink>
                 </ul>
             </ul>
             <ul>
-                <h3>Courses</h3>
+                <h3>Useful Link</h3>
                 <ul  className="footer_menu">
-                    <NavLink>Linux </NavLink>
-                    <NavLink>DevOps</NavLink>
-                    <NavLink>Aws</NavLink>
-                    <NavLink>Red Hat</NavLink>
+                    <NavLink>About Us </NavLink>
+                    <NavLink>Career</NavLink>
+                    <NavLink>HSE</NavLink>
+                    <NavLink>Contact Us</NavLink>
                 </ul>
             </ul>
             <div className="contact">
                 <h3>Contact</h3>
                 <ul  className="footer_menu">
-                    <p><BsFillTelephoneFill/> 3464062002</p>
-                    <p><AiTwotoneMail/> support@unixtrainingacademy.com</p>
-                    <p><ImLocation/> Suite 430G, 9898 Bissonnet Street, Houston TX 77036</p>
+                    <p><BsFillTelephoneFill/>+234 (84) 302879</p>
+                    <p><AiTwotoneMail/> info@substrataoilandgas.com</p>
+                    <p><ImLocation/> Plot 59 Professor Okujagu street, off Trans Amadi road, Port Harcourt.</p>
 
                     <div className="social">
                         <h3>Join us on social media</h3>
@@ -54,7 +54,8 @@ const Footer = () => {
             </div>
         </footer>
         <div className="copyright">
-            &copy; All Rights Reserved, CodeSpace Hackers
+        <span> &copy; 2021 Copyright: &nbsp;</span>
+            SUBSTRATA OIL AND GAS
         </div>
     </>
 

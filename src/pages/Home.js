@@ -62,7 +62,7 @@ const Home = () => {
         </motion.div>
 
         <Services/>
-        {/* <Footer/> */}
+        <Footer/>
 
     </>
 
