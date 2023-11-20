@@ -9,6 +9,8 @@ import circle from "../assets/images/circleGroup.svg"
 import engineering from "../assets/images/engineering.jpg"
 import factory from "../assets/images/factory.jpg"
 import Services from "../components/HomePage/Services";
+import BlogBanner from "../components/HomePage/BlogBanner";
+import Footer from "../components/Footer";
 
 const Home = () => {
     const navigate = useNavigate()
@@ -60,6 +62,7 @@ const Home = () => {
         </motion.div>
 
         <Services/>
+        {/* <Footer/> */}
 
     </>
 

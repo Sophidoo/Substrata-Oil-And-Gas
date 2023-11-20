@@ -4,6 +4,10 @@ import ServiceCard3 from "../HomeServices/ServiceCard3"
 import ServiceCard4 from "../HomeServices/ServiceCard4"
 
 import factory from "../../assets/images/factory.jpg"
+import BlogBanner from "./BlogBanner"
+import ServiceCard5 from "../HomeServices/ServiceCard5"
+import ServiceCard7 from "../HomeServices/ServiceCard7"
+import ServiceCard6 from "../HomeServices/ServiceCard6"
 
 const Services = () => {
     return<>
@@ -20,7 +24,12 @@ const Services = () => {
             <ServiceCard3/>
             <ServiceCard4/>
         </section>
-
+        <BlogBanner/>
+        <section className="homeServices">
+            <ServiceCard5/>
+            <ServiceCard6/>
+            <ServiceCard7/>
+        </section>
 
     </>
 }

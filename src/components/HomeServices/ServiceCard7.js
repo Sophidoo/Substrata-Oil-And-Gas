@@ -6,7 +6,8 @@ import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const ServiceCard4 = () => {
+const ServiceCard7 = () => {
+    
     const [ref, inView] = useInView();
 
     return<>
@@ -26,7 +27,7 @@ const ServiceCard4 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <h3>Produced Water Management Services</h3>
+                    <h3>Drilling Services</h3>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -34,7 +35,15 @@ const ServiceCard4 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
+                    <p>We have a team that support our esteemed clients in ensuring efficient, on-time and successful delivery of their drilling campaigns. Services supported are;
+                    <ul>
+                        <li>Supply of tubing and casings (OCTGs)</li>
+                        <li>Fishing and fishing tool rental services</li>
+                        <li>Solid Control Services</li>
+                        <li>Cementing Pumping</li>
+                        <li>Casing running & Liner hanger services</li>
+                        <li>Waste management services...</li>
+                    </ul></p>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -50,7 +59,8 @@ const ServiceCard4 = () => {
                 <img src={engineering} alt="" />
             </div>
         </div>
+
     </>
 }
 
-export default ServiceCard4
+export default ServiceCard7

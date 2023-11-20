@@ -170,6 +170,77 @@
     object-position: center;
     object-fit: cover;
 }
+.blogBannerWrapper{
+    height: fit-content;
+    width: 100%;
+    background-image: url("../assets/images/bannerBackground.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 100px 0px;
+}
+.blogBannerOverlay{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.197);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+.leftBlogBanner{
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.leftBlogBanner h2{
+    font-size: 35px;
+}
+.leftBlogBanner p{
+    color: rgb(232, 232, 232);
+    font-size: 14px;
+    line-height: 23px;
+}
+.blogrect{
+    background-color: var(--red);
+    top: -30px;
+    left: 0px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    width: 350px;
+}
+.rightBlogBanner{
+    display: flex;
+    column-gap: 20px;
+    justify-content: right;
+}
+.blogBannerCard{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.blogBannerCard img{
+    height: 242px;
+    background-color: gray;
+}
+.blogBannerContent{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.blogBannerContent h3{
+    font-size: 18px;
+}
+.blogBannerContent p{
+    font-size: 13px;
+}
+
+
 @media(max-width: 1300px){
     .overlay{
         padding: 0px 5%;
@@ -182,6 +253,12 @@
     }
     .homeServices h1{
         font-size: 30px;
+    }
+    .blogBannerWrapper{
+        background-position: left;
+    }
+    .blogBannerOverlay{
+        padding: 100px 5%;
     }
 }
 @media(max-width: 1000px){
@@ -211,6 +288,9 @@
     }
     .serviceContent p{
         font-size: 14px;
+    }
+    .blogBannerOverlay{
+        row-gap: 20px;
     }
 }
 @media(max-width: 850px){
@@ -264,6 +344,27 @@
     .overlay p{
         font-size: 14px;
     }
+    .rightBlogBanner{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .blogBannerCard{
+        flex-direction: row;
+        width: 100%;
+    }
+    .blogBannerContent{
+        justify-content: center;
+        width: 55%;
+    }
+    .blogBannerCard img{
+        width: 40%;
+    }
+    .leftBlogBanner{
+        width: 100%;
+    }
+    .leftBlogBanner h2{
+        font-size: 30px;
+    }
     .history h3{
         width: 100%;
     }
@@ -285,11 +386,30 @@
     .serviceImage{
         width: 93%;
     }
+    .leftBlogBanner h2{
+        font-size: 25px;
+    }
     .serviceImage .rect{
         width: 200px;
         height: 150px;
         top: -15px;
         left: -15px;
+    }
+    .blogBannerCard{
+        flex-direction: column;
+    }
+    .blogBannerWrapper{
+        background-position: right;
+    }
+    .blogrect{
+        width: 150px;
+    }
+    .blogBannerCard img{
+        width: 100%;
+        height: 200px;
+    }
+    .blogBannerContent{
+        width: 100%;
     }
 }
 @media(max-width: 450px){
@@ -314,5 +434,12 @@
     .serviceContent img{
         height: 35px;
         width: 35px;
+    }
+    .leftBlogBanner p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .blogBannerContent h3{
+        font-size: 16px;
     }
 }

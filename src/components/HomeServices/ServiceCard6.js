@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
 
-const ServiceCard1 = () => {
+const ServiceCard6 = () => {
     const [ref, inView] = useInView();
 
       
@@ -31,7 +31,7 @@ const ServiceCard1 = () => {
                     initial={{opacity: 0, y:100}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <h3>Engineering Design</h3>
+                    <h3>Training Services</h3>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -39,8 +39,7 @@ const ServiceCard1 = () => {
                     initial={{opacity: 0, y:100}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <p>We undertake a wide range of Engineering, Procurement and Project management tasks for oil exploration and production facilities, gas production and processing facilities, separation, liquefaction and oil refining. Our professional approach places us first on the list when considering new tasks or technologies.
-                    Projects we have executed include engineering analysis, procurement assistance and project management services. Our approach is always flexible, ensuring our esteemed clients satisfaction.</p>
+                    <p>Welcome to Substrata's Training Services, your gateway to comprehensive and specialized courses in the field of petroleum engineering, petroleum geology, process engineering, business development, and health, safety, and environment. Our training programs are meticulously crafted to cater to industry-specific disciplines and technical challenges, ensuring that professionals are equipped with the latest knowledge and skills to excel in their careers.</p>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -59,4 +58,4 @@ const ServiceCard1 = () => {
 
 }
 
-export default ServiceCard1
+export default ServiceCard6

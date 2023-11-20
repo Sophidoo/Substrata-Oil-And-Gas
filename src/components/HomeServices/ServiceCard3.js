@@ -20,7 +20,7 @@ const ServiceCard3 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
+                    transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
                     <img src={circle} alt="" />
                 </motion.div>
@@ -28,7 +28,7 @@ const ServiceCard3 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
+                    transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
                     <h3>Sub-surface Service</h3>
                 </motion.div>
@@ -36,7 +36,7 @@ const ServiceCard3 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
+                    transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
                     <p>Our team of seismic experts have a combined experience of over 100 years of seismic design, acquisition and supervision.
                     Combined, our team has seismic experience spanning all the continents of the world. Our expertise includes;
@@ -51,7 +51,7 @@ const ServiceCard3 = () => {
                     ref={ref}
                     animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
-                    transition={{duration: 1, ease: "easeIn", type: "spring"}}
+                    transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
                     <button>Learn More <FaArrowRight/></button>
                 </motion.div>
