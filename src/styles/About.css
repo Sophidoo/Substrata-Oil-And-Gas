@@ -37,10 +37,66 @@
     background-color: gray;
     height: 420px;
 }
+.missionVisionWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.missionWrapper{
+    display: flex;
+    height: 320px;
+    width: 80%;
+
+}
+.mission{
+    width: 50%;
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 5px;
+    padding: 20px 30px;
+}
+.mission h3{
+    font-size: 24px;
+}
+.mission p{
+    font-size: 14px;
+    color: rgb(205, 205, 205);
+    line-height: 20px;
+}
+.mission ul{
+    text-align: left;
+}
+.missionWrapper img{
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+    object-position: center;
+}
+.vision{
+    background-color: #ba3333;
+}
+.vissionWrapper{
+    flex-direction: row-reverse;
+}
+
 
 @media(max-width: 1300px){
     .aboutHeroWrapper{
         padding: 100px 5%;
+    }
+    .missionVisionWrapper{
+        padding: 100px 5%;
+    }
+    .missionWrapper{
+        width: 85%;
     }
 }
 @media(max-width: 1000px){
@@ -49,6 +105,12 @@
     }
     .leftAbout h1{
         font-size: 28px;
+    }
+    .missionVisionWrapper{
+        padding: 60px 5%;
+    }
+    .missionWrapper{
+        width: 100%;
     }
 }
 @media(max-width: 850px){
@@ -72,6 +134,18 @@
     .rightAbout{
         width: 100%;
     }
+    .missionWrapper{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .mission{
+        width: 100%;
+        height: 300px;
+    }
+    .missionWrapper img{
+        width: 100%;
+        height: 300px;
+    }
 }
 @media(max-width: 450px){
     .leftAbout h1{
@@ -80,5 +154,21 @@
     .rightAbout img{
         height: 320px;
         border-radius: 50px;
+    }
+    .mission{
+        height: fit-content;
+        padding: 30px 20px;
+    }
+    .vision {
+        height: 250px;
+    }
+    .mission h3{
+        font-size: 20px;
+    }
+    .mission p{
+        font-size: 13px;
+    }
+    .missionWrapper img{
+        height: 220px;
     }
 }
