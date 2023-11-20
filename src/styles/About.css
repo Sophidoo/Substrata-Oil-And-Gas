@@ -87,6 +87,45 @@
     flex-direction: row-reverse;
 }
 
+.valuesWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 60px 10%;
+    align-items: center;
+}
+.valuesWrapper h2{
+    font-size: 28px;
+    color: var(--blue);
+}
+.valuesCardWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 20px;
+}
+.valuesCard{
+    width: 31.3%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+.valuesCard svg{
+    color: var(--red);
+    font-size: 25px;
+}
+.valuesCard h3{
+    font-size: 18px;
+}
+.valuesCard p{
+    font-size: 14px;
+    color: var(--text);
+    line-height: 23px;
+}
 
 @media(max-width: 1300px){
     .aboutHeroWrapper{
@@ -97,6 +136,9 @@
     }
     .missionWrapper{
         width: 85%;
+    }
+    .valuesWrapper {
+        padding: 60px 5%;
     }
 }
 @media(max-width: 1000px){
@@ -111,6 +153,9 @@
     }
     .missionWrapper{
         width: 100%;
+    }
+    .valuesCard{
+        width: 48.5%;
     }
 }
 @media(max-width: 850px){
@@ -145,6 +190,15 @@
     .missionWrapper img{
         width: 100%;
         height: 300px;
+    }
+}
+@media(max-width: 500px){
+    
+    .valuesCard{
+        width: 100%;
+    }
+    .valuesWrapper h2{
+        font-size: 24px;
     }
 }
 @media(max-width: 450px){
