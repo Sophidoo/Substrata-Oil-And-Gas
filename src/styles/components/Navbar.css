@@ -35,7 +35,7 @@ nav .services p:hover{
 }
 nav .services .showServices{
     position: fixed;
-    top: 80px;
+    top: 75px;
     display: none;
     background-color: white;
     padding: 10px 20px;

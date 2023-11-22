@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className="services">
                     <p onMouseOver={() => ShowCard("services")} onClick={ShowServices}>Services <FaCaretDown /></p>
                     <ul className={services || card === "services" ? "showServices" : "hide"} onMouseLeave={() => ShowCard(null)}>
-                        <NavLink to={"/engineering"} style = {({isActive}) => isActive? activeStyle : undefined} end>Engineering Design</NavLink>
+                        <NavLink to={"/services/engineering-design"} style = {({isActive}) => isActive? activeStyle : undefined} end>Engineering Design</NavLink>
                         <NavLink to={"/seismic"} style = {({isActive}) => isActive? activeStyle : undefined} end>Seismic Data Processing</NavLink>
                         <NavLink to={"/sub-surface"} style = {({isActive}) => isActive? activeStyle : undefined} end>Sub-surface Services</NavLink>
                         <NavLink to={"/watermg"} style = {({isActive}) => isActive? activeStyle : undefined} end>Produced Water Management</NavLink>
