@@ -3,6 +3,11 @@ import "../../styles/services/Engdesign.css"
 import procurement from "../../assets/images/procurement.png"
 import hero from "../../assets/images/engineering.jpg"
 import documentation from "../../assets/images/facility documentation.png"
+import aims from "../../assets/images/aims.png"
+import objective from "../../assets/images/objective.png"
+import banner from "../../assets/images/EngineeringServicesBanner.png"
+import imagery from "../../assets/images/imagery.png"
+import laser from "../../assets/images/laser.png"
 import Footer from "../../components/Footer";
 
 const EngDesign = () => {
@@ -19,7 +24,7 @@ const EngDesign = () => {
         <section className="aimWrapper">
             <div className="leftAimWrapper">
                 <div className="rect"></div>
-                <img src="" alt="" />
+                <img src={aims} alt="" />
             </div>
             <div className="rightAimWrapper">
             <h2>Our Aim</h2>
@@ -60,11 +65,11 @@ const EngDesign = () => {
             </div>
             <div className="leftAimWrapper">
                 <div className="rect2"></div>
-                <img src="" alt="" />
+                <img src={objective} alt="" />
             </div>
         </section>
         <div className="banner2">
-            <img src="" alt="" />
+            <img src={banner} alt="" />
         </div>
         <section className="procurement">
             <h2>Engineering, Procurement & Construction (EPC).</h2>
@@ -116,11 +121,11 @@ const EngDesign = () => {
                 <span>As-built Documentation.</span>
                 <span>Design Verification.</span></p>
             </div>
-            <img src="" alt="" />
+            <img src={imagery} alt="" />
         </section>
 
         <section className="laser">
-            <img src="" alt="" />
+            <img src={laser} alt="" />
             <div className="leftLaser">
                 <h2>3D Laser Scanning</h2>
                 <ul>

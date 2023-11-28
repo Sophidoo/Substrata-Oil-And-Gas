@@ -93,6 +93,8 @@
     background-color: gray;
     height: 270px;
     margin: 100px 0px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .procurement{
