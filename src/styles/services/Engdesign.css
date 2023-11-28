@@ -1,22 +1,219 @@
-.servicesWrapper{
-    column-gap: 30px;
-    align-items: center;
-    margin-top: 79px;
+.serviceWrapper .service p{
+    border-left: 0px;
+    padding: 0px;
 }
-.servicesWrapper h1{
-    background-color: #D9D9D9;
+.serviceWrapper{
+    background-image: url("../../assets/images/engineering2.jpg");
+    background-size: cover;
+    background-position: top;
+    height: fit-content;
+}
+.serviceWrapper .service{
+    height: 95vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 20px 5%;
-    color: var(--blue);
-    font-size: 35px;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.servicesWrapper img{
+.serviceWrapper .service h2{
+    font-size: 45px;
+}
+.serviceWrapper .service p{
+    font-size: 17px;
+    color: whitesmoke;
+    width: 633px;
+    line-height: 23px;
+}
+.aimWrapper{
+    padding: 150px 10%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    position: relative;
+    align-items: center;
+}
+.leftAimWrapper{
+    width: 50%;
+}
+.leftAimWrapper .rect{
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    height: 100%;
+    width: 35%;
+    clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    top: 0px;
+    background-color: var(--brown);
+}
+.leftAimWrapper .rect2{
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    height: 100%;
+    width: 35%;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    top: 0px;
+    background-color: var(--brown);
+}
+.leftAimWrapper img{
+    background-color: gray;
     width: 100%;
-    height: 500px;
+    height: 480px;
     object-fit: cover;
-    object-position: center;
+}
+
+.rightAimWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.rightAimWrapper h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.rightAimWrapper2 ul{
+    padding-bottom: 20px;
+}
+.rightAimWrapper p{
+    font-size: 15px;
+    color: var(--gray);
+    width: 100%;
+    line-height: 23px;
+}
+.rightAimWrapper ul{
+    padding-top: 10px;
+}
+.rightAimWrapper li{
+    margin-left: 20px;
+}
+
+.banner2 img{
+    width: 100%;
+    background-color: gray;
+    height: 270px;
+    margin: 100px 0px;
+}
+
+.procurement{
+    padding: 150px 10%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.procurement h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.procurement .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.procurement .content h3{
+    font-size: 17px;
+}
+.procurement .content li{
+    font-size: 14px;
+    color: var(--gray);
+    margin-left: 20px;
+}
+.procurement .content ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.procurement img{
+  width: auto;
+  height: auto;
+  object-fit: cover;  
+}
+
+.imagery{
+    background-color: var(--ash);
+    padding: 150px 10%;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftImagery{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.leftImagery h2{
+    font-size: 35px;
+    color: var(--blue);
+
+}
+.leftImagery p{
+    color: var(--gray);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    line-height: 23px;
+}
+.imagery img{
+    width: 48%;
+    height: 400px;
+    background-color: gray;
+    object-fit: cover;
+}
+.laser{
+    padding: 150px 10%;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftLaser{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.leftLaser h2{
+    font-size: 35px;
+    color: var(--blue);
+
+}
+.leftLaser ul{
+    color: var(--gray);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    line-height: 23px;
+}
+.leftLaser li{
+    margin-left: 20px;
+}
+.laser img{
+    width: 48%;
+    height: 400px;
+    background-color: gray;
+    object-fit: cover;
+}
+.documentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    background-color: var(--ash);
+    padding: 150px 10%;
+    margin-bottom: -100px;
+}
+.documentation h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.documentation img{
+    height: auto;
+    width: auto;
+    object-fit: cover;
 }

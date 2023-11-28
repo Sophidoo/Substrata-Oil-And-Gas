@@ -10,6 +10,8 @@
   --blue: #01224F;
   --hover: #e32b2b;
   --gray: #404040;
+  --ash: rgba(0, 0, 0, 0.12);
+  --brown: #6A5C56;
 }
 body {
   margin: 0;
