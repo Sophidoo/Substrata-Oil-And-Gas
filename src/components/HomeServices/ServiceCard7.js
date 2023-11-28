@@ -11,7 +11,7 @@ const ServiceCard7 = () => {
     const [ref, inView] = useInView();
 
     return<>
-        <div className="serviceCard">
+        <div className="serviceCard lastCard">
             <div className="serviceContent">
                 <motion.div 
                     ref={ref}

@@ -10,7 +10,7 @@ const ServiceCard3 = () => {
     const [ref, inView] = useInView();
 
     return<>
-        <div className="serviceCard serviceCard2">
+        <div className="serviceCard serviceCard2 ashService">
             <div className="serviceImage">
                 <div className="rect"></div>
                 <img src={engineering} alt="" />
