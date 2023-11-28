@@ -121,7 +121,6 @@
 
 .map{
     height: fit-content;
-    margin-bottom: -100px;
 }
 
 @media(max-width: 1300px){

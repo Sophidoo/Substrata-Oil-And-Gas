@@ -1,0 +1,85 @@
+.subSurfaceHero{
+    margin-top: 79px;
+    background-image: url("../../assets/images/engineering2.jpg");
+    background-size: cover;
+    background-position: top;
+    height: fit-content;
+    margin-top: 79px;
+}
+.subSurfaceHero .suboverlay{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.51);
+    color: white;
+    padding: 0px 10%;
+    row-gap: 15px;
+}
+.subSurfaceHero .suboverlay h2{
+    font-size: 45px;
+}
+.subSurfaceHero .suboverlay p{
+    font-size: 17px;
+    color: whitesmoke;
+    width: 680px;
+    line-height: 23px;
+}
+.suboverlay ul{
+    padding-top: 10px;
+}
+.suboverlay li{
+    margin-left: 20px;
+}
+
+.seismic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 10%;
+}
+.leftSeismic{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 48%;
+}
+.leftSeismic h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.leftSeismic p{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    line-height: 23px;
+    color: var(--gray);
+}
+.leftSeismic li{
+    margin-left: 20px;
+}
+.leftSeismic img{
+    top: -10px;
+    left: -20px;
+    position: absolute;
+    height: 87px !important;
+    width: 292px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.seismic img{
+    width: 48%;
+    height: 500px;
+    object-fit: cover;
+    background-color: gray;
+}
+.seismicAsh{
+    background-color: var(--ash);
+}

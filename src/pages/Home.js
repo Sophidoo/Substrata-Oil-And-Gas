@@ -4,12 +4,7 @@ import "../styles/Home.css"
 import { FaArrowRight } from "react-icons/fa6";
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect, useRef, useState } from "react";
-import circle from "../assets/images/circleGroup.svg"
-import engineering from "../assets/images/engineering.jpg"
-import factory from "../assets/images/factory.jpg"
 import Services from "../components/HomePage/Services";
-import BlogBanner from "../components/HomePage/BlogBanner";
 import Footer from "../components/Footer";
 
 const Home = () => {

@@ -55,9 +55,9 @@ const Navbar = () => {
                     <p onMouseOver={() => ShowCard("services")} onClick={ShowServices}>Services <FaCaretDown /></p>
                     <ul className={services || card === "services" ? "showServices" : "hide"} onMouseLeave={() => ShowCard(null)}>
                         <NavLink to={"/services/engineering-design"} style = {({isActive}) => isActive? activeStyle : undefined} end>Engineering Design</NavLink>
-                        <NavLink to={"/seismic"} style = {({isActive}) => isActive? activeStyle : undefined} end>Seismic Data Processing</NavLink>
-                        <NavLink to={"/sub-surface"} style = {({isActive}) => isActive? activeStyle : undefined} end>Sub-surface Services</NavLink>
-                        <NavLink to={"/watermg"} style = {({isActive}) => isActive? activeStyle : undefined} end>Produced Water Management</NavLink>
+                        <NavLink to={"/services/seismic"} style = {({isActive}) => isActive? activeStyle : undefined} end>Seismic Data Processing</NavLink>
+                        <NavLink to={"/services/subsurface-service"} style = {({isActive}) => isActive? activeStyle : undefined} end>Sub-surface Services</NavLink>
+                        <NavLink to={"/watering"} style = {({isActive}) => isActive? activeStyle : undefined} end>Produced Water Management</NavLink>
                         <NavLink to={"/well"} style = {({isActive}) => isActive? activeStyle : undefined} end>Well Services</NavLink>
                         <NavLink to={"/training"} style = {({isActive}) => isActive? activeStyle : undefined} end>Training Services</NavLink>
                         <NavLink to={"/drilling"} style = {({isActive}) => isActive? activeStyle : undefined} end>Drilling Services</NavLink>

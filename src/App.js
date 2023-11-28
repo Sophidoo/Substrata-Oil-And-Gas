@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import EngDesign from './pages/services/EngDesign';
+import SubSurface from './pages/services/SubSurface';
 
 function App() {
   return <>
@@ -15,6 +16,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/services'>
           <Route path='engineering-design' element={<EngDesign/>}/>
+          <Route path='subsurface-service' element={<SubSurface/>}/>
         </Route>
       </Routes>
     </Router>
