@@ -1,0 +1,164 @@
+.drillingWrapper .service p{
+    border-left: 0px;
+    padding: 0px;
+}
+.drillingWrapper{
+    background-image: url("../../assets/images/engineering2.jpg");
+    background-size: cover;
+    background-position: top;
+    height: fit-content;
+    margin-top: 79px;
+}
+.drillingWrapper .service{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service li{
+    margin-left: 20px;
+}
+.drillingWrapper .service h2{
+    font-size: 45px;
+}
+.drillingWrapper .service p{
+    font-size: 17px;
+    color: whitesmoke;
+    width: 633px;
+    line-height: 23px;
+}
+.aimWrapper{
+    padding: 150px 10%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    position: relative;
+    align-items: center;
+}
+.leftAimWrapper{
+    width: 50%;
+}
+.leftAimWrapper .rect{
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    height: 100%;
+    width: 35%;
+    clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    top: 0px;
+    background-color: var(--blue);
+}
+.leftAimWrapper .rect2{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: 100%;
+    width: 35%;
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    top: 0px;
+    background-color: var(--blue);
+}
+.aimWrapperBackground{
+    background-image: url("../../assets/images/oil\ worker.jpg");
+    background-size: cover;
+}
+.aimWrapper2{
+    background-color: rgba(255, 255, 255, 0.905);
+}
+.leftAimWrapper img{
+    background-color: gray;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.leftAimWrapper2 img{
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+.rightAimWrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.rightAimWrapper h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.rightAimWrapper2 ul{
+    padding-bottom: 20px;
+}
+.rightAimWrapper p{
+    font-size: 15px;
+    color: var(--gray);
+    width: 100%;
+    line-height: 23px;
+}
+.rightAimWrapper ul{
+    padding-top: 10px;
+}
+.rightAimWrapper li{
+    margin-left: 20px;
+}
+
+.drilling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 10%;
+}
+.leftdrilling{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 48%;
+}
+.leftdrilling h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.leftdrilling p{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    line-height: 23px;
+    color: var(--gray);
+}
+.leftdrilling li{
+    margin-left: 20px;
+}
+.leftdrilling img{
+    top: -10px;
+    left: -20px;
+    position: absolute;
+    height: 87px !important;
+    width: 292px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.drilling img{
+    width: 48%;
+    height: 400px;
+    object-fit: cover;
+    background-color: gray;
+}
+.drillingAsh{
+    background-color: var(--ash);
+}
+.rightDrilling{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    width: 48%;
+}
+.rightDrilling img{
+    width: 100%;
+}
+.rightDrilling img:nth-child(1){
+    height: 100px;
+    background-color: transparent;
+}
