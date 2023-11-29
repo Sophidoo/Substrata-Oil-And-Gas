@@ -1,0 +1,73 @@
+.waterManagementWrapper .service p{
+    border-left: 0px;
+    padding: 0px;
+}
+.waterManagementWrapper{
+    background-image: url("../../assets/images/waterManagementBackground.png");
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    margin-top: 79px;
+}
+.waterManagementWrapper .service{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.waterManagementWrapper .service h2{
+    font-size: 45px;
+}
+.waterManagementWrapper .service p{
+    font-size: 17px;
+    color: whitesmoke;
+    width: 633px;
+    line-height: 23px;
+}
+.topContent{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.topContent p{
+    font-size: 15px;
+    color: var(--gray);
+    width: 100%;
+    line-height: 21px;
+}
+.managementTable{
+    width: fit-content;
+    height: fit-content;
+    background-image: url("../../assets/images/tableBackground.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.toverlay{
+    padding: 100px 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.833);
+}
+.managementTable img{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}   
+.bottomContent{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bottomContent p{
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--gray);
+}
+.bottomContent li{
+    margin-left: 20px;
+}
