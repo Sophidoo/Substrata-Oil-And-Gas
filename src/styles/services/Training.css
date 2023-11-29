@@ -1,0 +1,101 @@
+.trainingWrapper{
+    margin-top: 79px;
+    background-image: url("../../assets/images/training\ Services\ background.png");
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+.trainingOverlay{
+    background-color: rgba(0, 0, 0, 0.566);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+
+    padding: 100px 10%;
+    justify-content: center;
+}
+.trainingOverlay h2{
+    font-size: 45px;
+    color: white;
+}
+.trainingOverlay p{
+    font-size: 17px;
+    width: 633px;
+    line-height: 23px;
+    color: whitesmoke;
+}
+.trainingSecondSection{
+    padding: 150px 10%;
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+}
+.trainingSecondSection img{
+    width: 48%;
+    height: 400px;
+}
+.trainingSecondSection .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.firstContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.trainingSecondSection ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.trainingSecondSection h2{
+    font-size: 30px;
+    color: var(--blue);
+}
+.trainingSecondSection .content li{
+    margin-left: 20px;
+}
+.firstContent p{
+    font-weight: 600;
+    color: var(--blue);
+}
+.facilities{
+    background-image: url("../../assets/images/trainees.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+}
+.facilitiesOverlay{
+    padding: 150px 10%;
+    background-color: rgba(255, 255, 255, 0.919);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    row-gap: 50px;
+}
+.facilitiesOverlay .facilitiesCard{
+    width: 30.6%;
+}
+.facilitiesCard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.facilitiesCard h2{
+    font-size: 30px;
+    color: var(--blue);
+}
+.middle{
+    margin-top: 120px;
+}
+.facilitiesCard ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
