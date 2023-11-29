@@ -1,7 +1,13 @@
 import Navbar from "../../components/Navbar"
+import Footer from "../../components/Footer"
 import "../../styles/services/Seismic.css"
 import seismic from "../../assets/images/seismic bckground.png"
 import dataEnhancement from "../../assets/images/data enhancement image.png"
+import analysis1 from "../../assets/images/seismic analysis1.png"
+import analysis2 from "../../assets/images/seismic analysis2.png"
+import facility from "../../assets/images/computing facility.png"
+
+
 const Seismic = () => {
     return<>
     <Navbar/>
@@ -53,6 +59,65 @@ const Seismic = () => {
             </ul>
         </div>
     </section>
+    <section className="analysisWrapper">
+        <h2>AVO ANALYSIS AND RESERVOIR CHARACTERIZATION</h2>
+        <div className="contentWrapper">
+            <div className="content">
+                <ul>
+                    <li>Seismic Data QC and Preconditioning</li>
+                    <li>Creation of AVO and AVA forward models and comparison with gathers to ensure amplitude preservation</li>
+                    <li>Application of noise and/or multiple attenuation, scaling, spectrum enhancement and data regularization
+                    (if necessary) to facilitate AVO/AVA extraction and inversion</li>
+                    <li>AVO Analysis</li>
+                    <li>Well Log QC and Petrophysics/Rock Study</li>
+                    <li>Post and Pre-Stack Inversion</li>
+                    <li>Facies Classification</li>
+                    <li>Fracture Detection</li>
+                </ul>
+
+                <h3>2D/3D DEPTH IMAGING</h3>
+                <ul>
+                    <li>Velocity Model Building</li>
+                    <li>Velocity Model Update</li>
+                    <li>Tomography</li>
+                    <li>Multidisciplinary Approach and Data Integration</li>
+                    <li>Migration</li>
+                </ul>
+            </div>
+            <div className="contentImages">
+                <img src={analysis1} alt="" />
+                <img src={analysis2} alt="" />
+            </div>
+        </div>
+
+    </section>
+
+    <section className="softwareWrapper">
+        <div className="topSoftwareSection">
+            <h2>Software</h2>
+            <p>
+            Substrata Oil And Gas Limited uses the most current version of softwares for seismic data processing for fast data access and easy 3D visualization of pre-stack/post-stack seismic data and interpretation data for 2D/3D survey, in addition to well data. <br/>
+            Geomage g-Platform© offers a selection of modules and workflows designed to deliver optimal imaging solutions. Geomage solutions support a complete utilization of parallel processing capabilities of GPU and multi-core CPU clusters. This allows a reduction in lengthy processing times and gives a competitive advantage to our clients by delivering faster turnaround for their business decisions. <br/>
+            With intuitive analysis tools, state-of-the-art geophysical algorithms and an optimized parallel infrastructure, the SeisSpace® ProMAX® Seismic Processing Software family helps teams get the most out of seismic data, increase productivity, reduce project cycle times and understand even the most difficult geologic targets. <br/>
+            Shearwater’s Reveal provides advanced processing and imaging algorithms from Real Time QC on vessels, through to model building and depth imaging, within a flexible, intuitive interface. Reveal’s interactivity leads to faster and more accurate decision making. With its advanced batch job management, parallel processing and cluster scalability geophysicists can achieve highly efficient turnarounds with this easy to use software.
+            </p>
+        </div>
+        <div className="bottomSoftwareSection">
+            <div className="content">
+                <h2>Computing Facility:</h2>
+                <ul>
+                    <li>IBM HS22 Compute Nodes</li>
+                    <li>Linux workstations</li>
+                    <li>Dell Power-Edge R7series</li>
+                    <li>Dell Power-Edge R8series</li>
+                    <li>High Performance Computing (HPC) Cluster</li>
+                    <li>Various Tape drives</li>
+                </ul>
+            </div>
+        <img src={facility} alt="" />
+        </div>
+    </section>
+    <Footer/>
 
     </>
 }
