@@ -1,0 +1,120 @@
+.seismicWrapper{
+    margin-top: 79px;
+    background-image: url("../../assets/images/seismic\ bckground.png");
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+.seismicOverlay{
+    background-color: rgba(0, 0, 0, 0.566);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+
+    padding: 100px 10%;
+    justify-content: center;
+}
+.seismicOverlay h2{
+    font-size: 45px;
+    color: white;
+}
+.seismicOverlay p{
+    font-size: 17px;
+    width: 633px;
+    line-height: 23px;
+    color: whitesmoke;
+}
+.processingWrapper{
+    display: flex;
+    padding: 150px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.processingWrapper img{
+    width: 48%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    background-color: gray;
+}
+.processingWrapper .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 48%;
+}
+.processingWrapper .content h2{
+    font-size: 32px;
+    color: var(--blue);
+}
+.processingWrapper li{
+    margin-left: 20px;
+}
+.processingWrapper p{
+    line-height: 23px;
+}
+.processingWrapper ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.enhancementWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--ash);
+    padding: 150px 10%;
+    row-gap: 40px;
+}
+.topWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topWrapper img{
+    width: 48%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    background-color: gray;
+}
+.topWrapper .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 48%;
+}
+.topWrapper .content h2{
+    font-size: 32px;
+    color: var(--blue);
+}
+.topWrapper li{
+    margin-left: 20px;
+    line-height: 23px;
+}
+.topWrapper p{
+    line-height: 23px;
+}
+.topWrapper ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bottomWrapper{
+    width: 60%;
+}
+.bottomWrapper h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.bottomWrapper ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bottomWrapper  li{
+    margin-left: 20px;
+    line-height: 23px;
+}
