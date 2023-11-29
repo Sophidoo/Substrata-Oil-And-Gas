@@ -5,6 +5,7 @@ import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import well from "../../assets/images/Well.png"
 
 const ServiceCard5 = () => {
     
@@ -49,7 +50,7 @@ const ServiceCard5 = () => {
             </div>
             <div className="serviceImage">
                 <div className="rect"></div>
-                <img src={engineering} alt="" />
+                <img src={well} alt="" />
             </div>
         </div>
 

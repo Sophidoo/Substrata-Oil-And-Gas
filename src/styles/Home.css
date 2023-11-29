@@ -1,7 +1,8 @@
 .hero{
     height: fit-content;
-    background-image: url("../assets/images/heroBackground.png");
+    background-image: url("../assets/images/homePageBackground.png");
     background-size: cover;
+    background-position: center;
     margin-top: 79px;
 }
 .overlay{
@@ -11,7 +12,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    background-color: rgba(0, 0, 0, 0.51);
+    background-color: rgba(0, 0, 0, 0.407);
     color: white;
     padding: 0px 10%;
     row-gap: 15px;

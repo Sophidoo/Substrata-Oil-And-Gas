@@ -27,7 +27,7 @@
     width: 633px;
     line-height: 23px;
 }
-.aimWrapper{
+.drillingServWrapper{
     padding: 150px 10%;
     display: flex;
     justify-content: space-between;
@@ -35,10 +35,10 @@
     position: relative;
     align-items: center;
 }
-.leftAimWrapper{
+.leftDrillingWrapper{
     width: 50%;
 }
-.leftAimWrapper .rect{
+.leftDrillingWrapper .rect{
     position: absolute;
     z-index: -1;
     left: 0px;
@@ -48,7 +48,7 @@
     top: 0px;
     background-color: var(--blue);
 }
-.leftAimWrapper .rect2{
+.leftDrillingWrapper .rect2{
     position: absolute;
     z-index: 1;
     right: 0px;
@@ -58,49 +58,49 @@
     top: 0px;
     background-color: var(--blue);
 }
-.aimWrapperBackground{
+.drillingWrapperBackground{
     background-image: url("../../assets/images/oil\ worker.jpg");
     background-size: cover;
 }
-.aimWrapper2{
+.drillingServWrapper2{
     background-color: rgba(255, 255, 255, 0.905);
 }
-.leftAimWrapper img{
+.leftDrillingWrapper img{
     background-color: gray;
     width: 100%;
     height: 480px;
     object-fit: cover;
 }
-.leftAimWrapper2 img{
+.leftDrillingWrapper2 img{
     object-fit: contain;
     position: relative;
     z-index: 2;
     background-color: rgba(128, 128, 128, 0);
 }
 
-.rightAimWrapper{
+.rightDrillingWrapper{
     width: 50%;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
-.rightAimWrapper h2{
+.rightDrillingWrapper h2{
     font-size: 35px;
     color: var(--blue);
 }
-.rightAimWrapper2 ul{
+.rightDrillingWrapper2 ul{
     padding-bottom: 20px;
 }
-.rightAimWrapper p{
+.rightDrillingWrapper p{
     font-size: 15px;
     color: var(--gray);
     width: 100%;
     line-height: 23px;
 }
-.rightAimWrapper ul{
+.rightDrillingWrapper ul{
     padding-top: 10px;
 }
-.rightAimWrapper li{
+.rightDrillingWrapper li{
     margin-left: 20px;
 }
 

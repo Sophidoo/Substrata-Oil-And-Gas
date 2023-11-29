@@ -5,6 +5,7 @@ import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import surface from "../../assets/images/SubSurfacebg.png"
 
 const ServiceCard3 = () => {
     const [ref, inView] = useInView();
@@ -13,7 +14,7 @@ const ServiceCard3 = () => {
         <div className="serviceCard serviceCard2 ashService">
             <div className="serviceImage">
                 <div className="rect"></div>
-                <img src={engineering} alt="" />
+                <img src={surface} alt="" />
             </div>
             <div className="serviceContent">
                 <motion.div 

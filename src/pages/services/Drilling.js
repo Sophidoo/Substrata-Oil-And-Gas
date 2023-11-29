@@ -26,11 +26,11 @@ const Drilling = () => {
             </div>
         </section>
         <section className="aimWrapper">
-            <div className="leftAimWrapper">
+            <div className="leftDrillingWrapper">
                 <div className="rect"></div>
                 <img src={cementing} alt="" />
             </div>
-            <div className="rightAimWrapper">
+            <div className="rightDrillingWrapper">
             <h2>Our Well Cementing</h2>
                 <p>
                 Substrata Cementing is an industry leader in delivering effective zonal isolation in oil, gas and geothermal wells. We engineer cement slurry designs for specific well needs utilizing global standards. <br/>
@@ -40,10 +40,10 @@ const Drilling = () => {
                 </p>
             </div>
         </section>
-        <div className="aimWrapperBackground">
+        <div className="drillingWrapperBackground">
             
-        <section className="aimWrapper aimWrapper2">
-            <div className="rightAimWrapper rightAimWrapper2">
+        <section className="drillingServWrapper drillingServWrapper2">
+            <div className="rightDrillingWrapper rightDrillingWrapper2">
                 <h2>Drilling Support Services</h2>
                 <p>
                 We have a team that support our esteemed clients in ensuring efficient, on-time and successful delivery of their drilling campaigns. Services supported are;<br/>
@@ -60,7 +60,7 @@ const Drilling = () => {
                 </ul>
                 </p>
             </div>
-            <div className="leftAimWrapper leftAimWrapper2">
+            <div className="leftDrillingWrapper leftDrillingWrapper2">
                 <div className="rect2"></div>
                 <img src={drilling} alt="" />
             </div>
