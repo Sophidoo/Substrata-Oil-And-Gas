@@ -3,6 +3,10 @@ import Navbar from "../../components/Navbar"
 import "../../styles/services/SubSurface.css"
 import ashDesign from "../../assets/images/headingDesign.png"
 import whiteDesign from "../../assets/images/headingdesignwhite.png"
+import fielddev from "../../assets/images/fielddev.png"
+import fieldopt from "../../assets/images/fieldoptimization.png"
+import seismic from "../../assets/images/seismicAcquisition.png"
+import graph from "../../assets/images/surfacegraph.png"
 
 
 const SubSurface = () => {
@@ -41,11 +45,11 @@ const SubSurface = () => {
                     </ul>
                 </p>
             </div>
-            <img src="" alt="" />
+            <img src={seismic} alt="" />
         </section>
 
         <section className="seismic seismicAsh">
-            <img src="" alt="" />
+            <img src={fielddev} alt="" />
             <div className="leftSeismic ">
                 <img src={whiteDesign} alt="" />
                 <h2>Field Development & Prospectivity
@@ -71,10 +75,10 @@ Petroleum Economics</h2>
                     <span>Monte Carlo simulation of E & P project economics and profitability is often used in these studies.</span>
                 </p>
             </div>
-            <img src="" alt="" />
+            <img src={graph} alt="" />
         </section>
         <section className="seismic seismicAsh">
-            <img src="" alt="" />
+            <img src={fieldopt} alt="" />
             <div className="leftSeismic ">
             <img src={whiteDesign} alt="" />
                 <h2>Field Optimization Services</h2>
