@@ -1,0 +1,213 @@
+.wellWrapper{
+    margin-top: 79px;
+    background-image: url("../../assets/images/Well.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.wellOverlay{
+    background-color: rgba(0, 0, 0, 0.566);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+
+    padding: 100px 10%;
+    justify-content: center;
+}
+.wellOverlay h2{
+    font-size: 45px;
+    color: white;
+}
+.wellOverlay p{
+    font-size: 17px;
+    width: 633px;
+    line-height: 23px;
+    color: whitesmoke;
+}
+.wellServices{
+    display: flex;
+    padding: 150px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.wellServices img{
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    background-color: gray;
+}
+.wellServices .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 48%;
+}
+.wellServices .content h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.wellServices li{
+    margin-left: 20px;
+}
+.wellServices p{
+    line-height: 23px;
+}
+.wellServices ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.acquisitionWrapper{
+    background-image: url('../../assets/images/Big\ water\ pipes.png');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: fit-content;
+}
+.acquisitionOverlay{
+    padding: 150px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.916);
+}
+.acquisitionOverlay .topSection{
+    display: flex;
+    justify-content: space-between;
+}
+.topSection .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 70%;
+}
+.topSection .content h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.topSection p{
+    font-size: 15px;
+    color: var(--gray);
+    line-height: 23px;
+}
+.topSection li{
+    margin-left: 20px;
+}
+.topSection img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+.acquisitionOverlay img{
+    width: 306px;
+    height: 244px;
+    margin-top: -50px;
+    object-fit: cover;
+}
+.productivityWrapper{
+    display: flex;
+    padding: 150px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.productivityWrapper img{
+    width: 48%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    background-color: gray;
+}
+.productivityWrapper .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 48%;
+}
+.productivityWrapper .content h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.productivityWrapper li{
+    margin-left: 20px;
+}
+.productivityWrapper .content p{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 15px;
+    line-height: 23px;
+}
+.productivityWrapper .content h3{
+    font-size: 17px;
+}
+.productivityWrapper ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.sandWrapper{
+    display: flex;
+    padding: 150px 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--ash);
+}
+.sandWrapper img{
+    width: 48%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    background-color: gray;
+}
+.sandWrapper .content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 48%;
+}
+.sandWrapper .content h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.sandWrapper li{
+    margin-left: 20px;
+}
+.sandWrapper .content p{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.integrityWrapper{
+    background-image: url('../../assets/images/water\ station.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+}
+.integrityOverlay{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.907);
+    padding: 150px 10%;
+    
+}
+.integrityOverlay h2{
+    font-size: 35px;
+    color: var(--blue);
+}
+.integrityOverlay p{
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--gray);
+}

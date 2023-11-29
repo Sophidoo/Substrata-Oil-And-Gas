@@ -58,8 +58,8 @@ const Navbar = () => {
                         <NavLink to={"/services/seismic"} style = {({isActive}) => isActive? activeStyle : undefined} end>Seismic Data Processing</NavLink>
                         <NavLink to={"/services/subsurface-service"} style = {({isActive}) => isActive? activeStyle : undefined} end>Sub-surface Services</NavLink>
                         <NavLink to={"/services/produced-water-management"} style = {({isActive}) => isActive? activeStyle : undefined} end>Produced Water Management</NavLink>
-                        <NavLink to={"/well"} style = {({isActive}) => isActive? activeStyle : undefined} end>Well Services</NavLink>
-                        <NavLink to={"/training"} style = {({isActive}) => isActive? activeStyle : undefined} end>Training Services</NavLink>
+                        <NavLink to={"/services/well-services"} style = {({isActive}) => isActive? activeStyle : undefined} end>Well Services</NavLink>
+                        <NavLink to={"/services/training-services"} style = {({isActive}) => isActive? activeStyle : undefined} end>Training Services</NavLink>
                         <NavLink to={"/services/drilling-service"} style = {({isActive}) => isActive? activeStyle : undefined} end>Drilling Services</NavLink>
                     </ul>
                 </div>

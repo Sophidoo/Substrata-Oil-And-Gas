@@ -8,6 +8,8 @@ import EngDesign from './pages/services/EngDesign';
 import SubSurface from './pages/services/SubSurface';
 import Drilling from './pages/services/Drilling';
 import WaterManagement from './pages/services/WaterManagement';
+import WellService from './pages/services/WellService';
+import TrainingService from './pages/services/TrainingService';
 
 function App() {
   return <>
@@ -21,6 +23,8 @@ function App() {
           <Route path='subsurface-service' element={<SubSurface/>}/>
           <Route path='drilling-service' element={<Drilling/>}/>
           <Route path='produced-water-management' element={<WaterManagement/>}/>
+          <Route path='well-services' element={<WellService/>}/>
+          <Route path='training-services' element={<TrainingService/>}/>
         </Route>
       </Routes>
     </Router>
