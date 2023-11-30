@@ -71,3 +71,61 @@
 .bottomContent li{
     margin-left: 20px;
 }
+
+
+@media(max-width: 1300px){
+    .topContent{
+        padding: 100px 5%;
+    }
+    .bottomContent{
+        padding: 100px 5%;
+    }
+    .waterManagementWrapper .service h2{
+        font-size: 40px;
+    }
+    .waterManagementWrapper .service p{
+        font-size: 15px;
+    }
+}
+@media(max-width: 1000px){
+    .waterManagementWrapper .service h2{
+        font-size: 35px;
+    }
+    .topContent p{
+        font-size: 14px;
+    }
+    .managementTable img{
+        width: 90%;
+    }
+    .bottomContent p{
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 750px){
+    .waterManagementWrapper .service h2{
+        font-size: 30px;
+    }
+    .waterManagementWrapper .service p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .topContent p{
+        font-size: 13px;
+    }
+    .toverlay{
+        padding: 100px 5%;
+    }
+    .managementTable img{
+        width: 100%;
+    }
+    .bottomContent p{
+        font-size: 13px;
+    }
+
+}
+@media(max-width: 500px){
+    .waterManagementWrapper .service h2{
+        font-size: 26px;
+    }
+}
