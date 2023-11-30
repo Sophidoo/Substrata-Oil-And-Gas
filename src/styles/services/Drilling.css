@@ -162,3 +162,168 @@
     height: 100px;
     background-color: transparent;
 }
+
+@media(max-width: 1300px){
+    .aimWrapper{
+        padding: 150px 5%;
+    }
+    .drillingServWrapper{
+        padding: 150px 5%;
+    }
+    .drilling{
+        padding: 150px 5%;
+    }
+}
+@media(max-width: 1000px){
+    .aimWrapper{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+    .drillingServWrapper{
+        flex-direction: column-reverse;
+        row-gap: 100px;
+    }
+    .drilling{
+        flex-direction: column-reverse;
+        padding: 100px 5%;
+        row-gap: 60px;
+    }
+    .drilling img{
+        width: 100%;
+        height: 300px;
+    }
+    .leftdrilling{
+        width: 100%;
+    }
+    .drillingAsh{
+        flex-direction: column;
+    }
+    .rightDrilling{
+        width: 100%;
+    }
+    .aimWrapper .rect{
+        height: 50%;
+        width: 50%;
+        clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    }
+    .drillingServWrapper .rect{
+        height: 50%;
+        width: 50%;
+        clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    }
+    .leftDrillingWrapper .rect2{
+        width: 50%;
+        height: 50%;
+        clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .leftDrillingWrapper{
+        width: 100%;
+    }
+    .leftDrillingWrapper img{
+        height: 350px;
+        margin-top: -50px;
+        width: 100%;
+    }
+    .rightDrillingWrapper{
+        width: 100%;
+    }
+    .drillingWrapper .service h2{
+        font-size: 38px;
+    }
+    .drillingWrapper .service{
+        row-gap: 10px;
+    }
+    .drillingWrapper .service p{
+        font-size: 15px;
+    }
+    .rightDrillingWrapper h2{
+        font-size: 28px;
+    }
+    .rightDrillingWrapper p{
+        font-size: 14px;
+    }
+    .leftdrilling h2{
+        font-size: 28px;
+    }
+    .leftdrilling p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 750px){
+    .drillingWrapper .service p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .drillingWrapper .service h2{
+        font-size: 28px;
+    }
+    .rightDrillingWrapper h2{
+        font-size: 26px;
+    }
+    .rightDrillingWrapper p{
+        font-size: 13px;
+    }
+    .leftDrillingWrapper img{
+        height: 300px;
+        margin-top: -50px;
+        width: 100%;
+    }
+    .leftdrilling h2{
+        font-size: 25px;
+    }
+    .leftdrilling p{
+        font-size: 13px;
+    }
+}
+@media(max-width: 650px){
+    .aimWrapper .rect{
+        height: 45%;
+    }
+    .drillingServWrapper .rect{
+        height: 45%;
+    }
+    .leftDrillingWrapper .rect2{
+        height: 45%;
+    }
+    .leftDrillingWrapper img{
+        margin-top: -70px;
+    }
+}
+@media(max-width: 500px){
+    .aimWrapper .rect{
+        height: 45%;
+        width: 70%;
+    }
+    .drillingServWrapper .rect{
+        height: 45%;
+        width: 70%;
+    }
+    .aimWrapper{
+        padding-bottom: 50px;
+    }
+    .drillingServWrapper{
+        padding-bottom: 50px;
+    }
+    .leftDrillingWrapper img{
+        margin-top: -70px;
+        height: 250px;
+    }
+    .leftDrillingWrapper .rect2{
+        height: 45%;
+        width: 70%;
+        
+    }
+    .drilling img{
+        height: 250px;
+    }
+    .rightDrilling img{
+        height: 250px;
+    }
+    .leftDrillingWrapper h2{
+        font-size: 23px;
+    }
+    .leftdrilling h2{
+        font-size: 23px;
+    }
+}
