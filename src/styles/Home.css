@@ -179,36 +179,25 @@
 .blogBannerWrapper{
     height: fit-content;
     width: 100%;
-    background-image: url("../assets/images/EngineeringServicesBanner.png");
+    background-image: url("../assets/images/blog\ background.png");
     background-size: cover;
     background-position: center;
     position: relative;
     margin: 100px 0px;
     align-items: center;
     column-gap: 50px;
+    justify-content: space-between;
     display: flex;
-}
-.blogBannerOverlay{
-    height: fit-content;
-    background-color: rgba(0, 0, 0, 0.474);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 100px 50px;
-    height: 80vh;
-    width: 55%;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    clip-path: polygon(0% 0%, 70% 0%, 100% 50%, 70% 100%, 0% 100%);
-    
-    align-items: flex-start;
+    padding: 150px 10%;
 }
 .leftBlogBanner{
+    display: flex;
+    flex-direction: column;
     color: white;
-    width: 500px;
     display: flex;
     flex-direction: column;
     row-gap: 3px;
+    width: 45%;
 }
 .leftBlogBanner h2{
     font-size: 35px;
@@ -231,7 +220,7 @@
     display: flex;
     column-gap: 20px;
     justify-content: right;
-    width: 45%;
+    width: 55%;
     padding-right: 20px;
 }
 .blogBannerCard{

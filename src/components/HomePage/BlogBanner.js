@@ -1,13 +1,12 @@
 
+
 const BlogBanner = () => {
     return <>
         <section className="blogBannerWrapper">
         <div className="blogrect"></div>
-            <div className="blogBannerOverlay">
-                <div className="leftBlogBanner">
-                    <h2>BLOG AND UPDATES</h2>
-                    <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
-                </div>
+            <div className="leftBlogBanner">
+                <h2>BLOG AND UPDATES</h2>
+                <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
             </div>
                 <div className="rightBlogBanner">
                     <div className="blogBannerCard">
