@@ -6,6 +6,8 @@ import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Services from "../components/HomePage/Services";
 import Footer from "../components/Footer";
+import OurClient from "../components/HomePage/OurClients";
+import OurPartners from "../components/HomePage/OutPartners";
 
 const Home = () => {
     const navigate = useNavigate()
@@ -57,6 +59,8 @@ const Home = () => {
         </motion.div>
 
         <Services/>
+        <OurClient/>
+        <OurPartners/>
         <Footer/>
 
     </>

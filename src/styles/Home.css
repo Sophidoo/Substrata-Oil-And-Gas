@@ -298,6 +298,82 @@
 .lastCard{
     margin-bottom: 100px;
 }
+.clientsWrapper{
+    background-image: url("../assets/images/client.png");
+    background-size: cover;
+    background-position: center;
+}
+.clientsOverlay{
+    padding: 150px 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.232);
+}
+.clientsWrapper h2{
+    font-size: 35px;
+    color: var(--blue);
+    position: relative;
+}
+.clientsWrapper h2:after{
+    content: '';
+    background-color: var(--red);
+    height: 8px;
+    width: 100px;
+    position: absolute;
+    left: 65px;
+    bottom: -10px;
+}
+.clientsCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 30px;
+}
+.clientsCardWrapper img{
+    width: 22.7%;
+    height: 130px;
+    object-fit: contain;
+}
+.partnerCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 30px;
+}
+.partnerCardWrapper img{
+    width: 22.7%;
+    height: 130px;
+    object-fit: contain;
+}
+.partnerWrapper{
+    background-image: url("../assets/images/partner.png");
+    background-size: cover;
+    background-position: center;
+}
+.partnerOverlay{
+    padding: 150px 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.232);
+}
+.partnerWrapper h2{
+    font-size: 35px;
+    color: var(--blue);
+    position: relative;
+}
+.partnerWrapper h2:after{
+    content: '';
+    background-color: var(--red);
+    height: 8px;
+    width: 100px;
+    position: absolute;
+    left: 65px;
+    bottom: -10px;
+}
 
 @media(max-width: 1300px){
     .overlay{
