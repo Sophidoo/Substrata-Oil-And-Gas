@@ -219,3 +219,234 @@
     width: auto;
     object-fit: cover;
 }
+
+
+@media(max-width: 1300px){
+    .aimWrapper{
+        padding: 150px 5%;
+    }
+    .procurement {
+        padding: 150px 5%;
+        padding-top: 50px;
+    }
+    .imagery{
+        padding: 150px 5%;
+    }
+    .laser{
+        padding: 150px 5%;
+    }
+    .documentation{
+        padding: 150px 5%;
+    }
+    .documentation img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 1000px){
+    .aimWrapper{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+    .aimWrap2{
+        flex-direction: column-reverse;
+    }
+    .aimWrapper .rect{
+        height: 50%;
+        width: 50%;
+        clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
+    }
+    .leftAimWrapper .rect2{
+        width: 50%;
+        height: 45%;
+        clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .leftAimWrapper{
+        width: 100%;
+    }
+    .leftAimWrapper img{
+        height: 350px;
+        margin-top: -50px;
+        width: 100%;
+    }
+    .rightAimWrapper{
+        width: 100%;
+    }
+    .procurement .content{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .procurement .content ul{
+        width: 50%;
+    }
+    .imagery{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .leftImagery{
+        width: 100%;
+    }
+    .imagery img{
+        width: 100%;
+        height: 350px;
+        object-position: center;
+    }
+    .laser{
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .leftLaser{
+        width: 100%;
+    }
+    .laser img{
+        width: 100%;
+        height: 350px;
+        object-position: center;
+    }
+    .serviceWrapper .service h2{
+        font-size: 38px;
+    }
+    .serviceWrapper .service{
+        row-gap: 10px;
+    }
+    .serviceWrapper .service p{
+        font-size: 15px;
+    }
+    .rightAimWrapper h2{
+        font-size: 30px;
+    }
+    .rightAimWrapper p{
+        font-size: 14px;
+    }
+    .procurement h2{
+        font-size: 30px;
+    }
+    .procurement .content ul{
+        font-size: 14px;
+    }
+    .leftImagery h2{
+        font-size: 30px;
+    } 
+    .leftImagery p{
+        font-size: 14px;
+    }
+    .leftLaser h2{
+        font-size: 30px;
+    } 
+    .leftLaser ul{
+        font-size: 14px;
+    }
+    .documentation h2{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 750px){
+    .serviceWrapper .service p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .serviceWrapper .service h2{
+        font-size: 28px;
+    }
+    .rightAimWrapper h2{
+        font-size: 26px;
+    }
+    .rightAimWrapper p{
+        font-size: 13px;
+    }
+    .procurement h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .procurement .content ul{
+        font-size: 13px;
+    }
+    .leftImagery h2{
+        font-size: 26px;
+    } 
+    .leftImagery p{
+        font-size: 13px;
+    }
+    .leftLaser h2{
+        font-size: 26px;
+    } 
+    .leftLaser ul{
+        font-size: 13px;
+    }
+    .documentation h2{
+        font-size: 26px;
+    }
+    .leftAimWrapper img{
+        height: 300px;
+        margin-top: -50px;
+        width: 100%;
+    }
+}
+@media(max-width: 650px){
+    .aimWrapper .rect{
+        height: 45%;
+    }
+    .leftAimWrapper .rect2{
+        height: 40%;
+    }
+    .leftAimWrapper img{
+        margin-top: -70px;
+    }
+    .procurement img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 500px){
+    .aimWrapper .rect{
+        height: 45%;
+        width: 70%;
+    }
+    .aimWrapper{
+        padding-bottom: 50px;
+    }
+    .leftAimWrapper img{
+        margin-top: -70px;
+        height: 280px;
+    }
+    .leftAimWrapper .rect2{
+        height: 40%;
+        width: 70%;
+        
+    }
+    .procurement .content{
+        flex-direction: column;
+    }
+    .imagery{
+        padding: 100px 5%;
+    }
+    .imagery img{
+        height: 250px;
+    }
+    .laser{
+        padding: 100px 5%;
+    }
+    .laser img{
+        height: 250px;
+    }
+    .documentation h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .documentation{
+        padding: 100px 5%;
+    }
+    .leftImagery h2{
+        font-size: 25px;
+    }
+    .leftLaser h2{
+        font-size: 25px;
+    }
+    .procurement h2{
+        font-size: 25px;
+    }
+    .leftAimWrapper h2{
+        font-size: 25px;
+    }
+}

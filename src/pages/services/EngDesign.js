@@ -43,7 +43,7 @@ const EngDesign = () => {
                 </p>
             </div>
         </section>
-        <section className="aimWrapper">
+        <section className="aimWrapper aimWrap2">
             <div className="rightAimWrapper rightAimWrapper2">
                 <h2>Our Services</h2>
                 <p>
