@@ -109,7 +109,7 @@ const Seismic = () => {
                     <li>IBM HS22 Compute Nodes</li>
                     <li>Linux workstations</li>
                     <li>Dell Power-Edge R7series</li>
-                    <li>Dell Power-Edge R8series</li>
+                    <li>Dell Power-Edge R8s eries</li>
                     <li>High Performance Computing (HPC) Cluster</li>
                     <li>Various Tape drives</li>
                 </ul>

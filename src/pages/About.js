@@ -8,6 +8,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { GiCargoCrane } from "react-icons/gi";
 import mission from "../assets/images/mission.jpg"
 import vission from "../assets/images/vission.jpg"
+import office from "../assets/images/office.png"
 
 const About = () => {
     
@@ -25,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <div className="rightAbout">
-                <img src="" alt="" />
+                <img src={office} alt="" />
             </div>
         </div>
 

@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import circle from "../../assets/images/circleGroup.svg"
-import engineering from "../../assets/images/engineering.jpg"
+import trainees from "../../assets/images/trainees2.png"
 
 const ServiceCard6 = () => {
     const [ref, inView] = useInView();
@@ -13,7 +13,7 @@ const ServiceCard6 = () => {
             <div className="serviceCard serviceCard2 ashService" >
                 <div className="serviceImage">
                     <div className="rect"></div>
-                    <img src={engineering} alt="" />
+                    <img src={trainees} alt="" />
                 </div>
                 <div className="serviceContent">
                 <motion.div 
