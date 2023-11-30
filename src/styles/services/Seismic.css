@@ -156,11 +156,6 @@
 .contentWrapper .content h2{
     margin-top: 20px;
 }
-.conentImages img{
-    width: 100%;
-    height: auto;
-    background-color: gray;
-}
 .softwareWrapper{
     display: flex;
     flex-direction: column;
@@ -209,4 +204,206 @@
     width: 48%;
     height: 300px;
     object-fit: cover;
+}
+
+@media(max-width: 1300px){
+    .seismicOverlay{
+        padding: 100px 5%;
+    }
+    .processingWrapper{
+        padding: 150px 5%;
+    }
+    .enhancementWrapper{
+        padding: 150px 5%;
+    }
+    .analysisWrapper{
+        padding: 150px 5%;
+    }
+    .softwareWrapper{
+        padding: 150px 5%;
+    }
+}
+@media(max-width: 1000px){
+    .seismicOverlay h2{
+        font-size: 40px;
+    }
+    .seismicOverlay p{
+        font-size: 15px;
+    }
+    .processingWrapper{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .processingWrapper img{
+        width: 100%;
+        height: 300px;
+    }
+    .processingWrapper .content{
+        width: 100%;
+    }
+    .topWrapper{
+        flex-direction: column;
+        row-gap: 70px;
+    }
+    .enhancementWrapper img{
+        width: 100%;
+        height: 300px;
+    }
+    .topWrapper .content{
+        width: 100%;
+    }
+    .bottomWrapper{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .analysisWrapper{
+        flex-direction: column;
+    }
+    .contentWrapper{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .contentImages{
+        column-gap: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .contentImages img{
+        width: 50%;
+        height: auto;
+    }
+    .processingWrapper .content h2{
+        font-size: 28px;
+    }
+    .bottomWrapper h2{
+        font-size: 28px;
+    }
+    .processingWrapper p{
+        font-size: 15px;
+    }
+    .topWrapper .content h2{
+        font-size: 28px;
+    }
+    .topWrapper ul{
+        font-size: 15px;
+    }
+    .bottomWrapper ul{
+        font-size: 15px;
+    }
+    .analysisWrapper h2{
+        font-size: 28px;
+    }
+    .contentWrapper .content ul{
+        font-size: 15px;
+    }
+
+}
+@media(max-width: 750px){
+    .seismicOverlay h2{
+        font-size: 35px;
+    }
+    .seismicOverlay p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .processingWrapper .content h2{
+        font-size: 25px;
+    }
+    .processingWrapper p{
+        font-size: 13px;
+    }
+    .topWrapper .content h2{
+        font-size: 25px;
+    }
+    .topWrapper ul{
+        font-size: 13px;
+    }
+    .bottomWrapper h2{
+        font-size: 25px;
+    }
+    .bottomWrapper ul{
+        font-size: 13px;
+    }
+    .analysisWrapper h2{
+        font-size: 25px;
+    }
+    .analysisWrapper{
+        padding: 100px 5%;
+    }
+    .enhancementWrapper{
+        padding: 100px 5%;
+    }
+    .processingWrapper{
+        padding: 100px 5%;
+    }
+    .contentWrapper .content ul{
+        font-size: 13px;
+    }
+    .softwareWrapper{
+        padding: 100px 5%;
+    }
+    .softwareWrapper h2{
+        font-size: 26px;
+    }
+    .topSoftwareSection p{
+        font-size: 13px;
+    }
+    .bottomSoftwareSection ul{
+        font-size: 13px;
+    }
+    .bottomSoftwareSection{
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .bottomSoftwareSection .content{
+        width: 100%;
+    }
+    .bottomSoftwareSection img{
+        width: 100%;
+        height: 280px;
+    }
+}
+@media(max-width: 500px){
+    .seismicOverlay  h2{
+        font-size: 27px;
+    }
+    .seismicOverlay p{
+        font-size: 13.5px;
+    }
+    .processingWrapper img{
+        height: 250px;
+    }
+    .processingWrapper .content h2{
+        font-size: 23px;
+    }
+    .topWrapper img{
+        height: 250px;
+    }
+    .topWrapper .content h2{
+        font-size: 23px;
+    }
+    .bottomWrapper h2{
+        font-size: 23px;
+    }
+    .analysisWrapper h2{
+        font-size: 23px;
+    }
+    .contentWrapper .content h2{
+        font-size: 23px;
+    }
+    .contentImages{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .contentImages img{
+        width: 100%;
+    }
+    .softwareWrapper h2{
+        font-size: 23px;
+    }
+    .bottomSoftwareSection img{
+        height: 250px;
+    }
 }
