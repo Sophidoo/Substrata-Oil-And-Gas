@@ -5,7 +5,7 @@ import hero from "../../assets/images/engineering.jpg"
 import documentation from "../../assets/images/facility documentation.png"
 import aims from "../../assets/images/aims.png"
 import objective from "../../assets/images/objective.png"
-import banner from "../../assets/images/EngineeringServicesBanner.png"
+import banner from "../../assets/images/EngineeringServiceBanner.png"
 import imagery from "../../assets/images/imagery.png"
 import laser from "../../assets/images/laser.png"
 import Footer from "../../components/Footer";

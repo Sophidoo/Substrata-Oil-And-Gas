@@ -75,7 +75,7 @@ const Seismic = () => {
                     <li>Fracture Detection</li>
                 </ul>
 
-                <h3>2D/3D DEPTH IMAGING</h3>
+                <h2>2D/3D DEPTH IMAGING</h2>
                 <ul>
                     <li>Velocity Model Building</li>
                     <li>Velocity Model Update</li>
