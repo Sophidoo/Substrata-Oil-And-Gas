@@ -1,11 +1,25 @@
 import Navbar from "../components/Navbar"
 import "../styles/Contact.css"
+import React, { useRef } from 'react';
 import { AiTwotoneMail} from "react-icons/ai"
 import {BsFillTelephoneFill} from "react-icons/bs"
 import {ImLocation} from "react-icons/im"
 import Footer from "../components/Footer"
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     return<>
         <Navbar/>
