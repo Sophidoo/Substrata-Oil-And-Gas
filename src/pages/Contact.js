@@ -70,22 +70,24 @@ const Contact = () => {
         <div className="rightContact">
           <h2>Send us an email</h2>
           <form action="" ref={form} onSubmit={sendEmail}>
-            <input type="text" placeholder="Name*" name="from_name" />
+            <input type="text" placeholder="Name*" name="from_name" required/>
             <div className="inputWrapper">
               <input
                 type="email"
                 placeholder="Email Address*"
                 name="reply_to"
+                required
               />
-              <input type="text" placeholder="Phone Number*" name="phone" />
+              <input type="text" placeholder="Phone Number*" name="phone" required/>
             </div>
-            <input type="text" placeholder="Subject*" name="subject"/>
+            <input type="text" placeholder="Subject*" name="subject" required/>
             <textarea
               name="message"
               id=""
               cols="30"
               rows="5"
               placeholder="Message*"
+              required
             ></textarea>
             <button disabled={loading}>{loading ? 'Loading...' : 'Submit'}</button>
           </form>
