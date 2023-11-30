@@ -1,3 +1,6 @@
+import blog1 from "../../assets/images/blog1.png"
+import blog2 from "../../assets/images/blog2.png"
+
 
 import { FaArrowRight } from "react-icons/fa6";
 const BlogBanner = () => {
@@ -13,7 +16,7 @@ const BlogBanner = () => {
             </div>
                 <div className="rightBlogBanner">
                     <div className="blogBannerCard">
-                        <img src="" alt="" />
+                        <img src={blog1} alt="" />
                         <div className="blogBannerContent">
                             <h3><u>Fueling Africa's Future: 5 Massive Oil and gas Projects Unveiled</u></h3>
                             <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>
@@ -24,7 +27,7 @@ const BlogBanner = () => {
                         </div>
                     </div>
                     <div className="blogBannerCard">
-                        <img src="" alt="" />
+                        <img src={blog2} alt="" />
                         <div className="blogBannerContent">
                             <h3><u>Changing crude flows are creating opportunities in the Us Golf Coast</u></h3>
                             <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>

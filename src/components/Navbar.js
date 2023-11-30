@@ -40,7 +40,10 @@ const Navbar = () => {
     return<>
         <nav onMouseLeave={() => ShowCard(null)}>
             <div className="logo">
+            <NavLink to={"/"}  style = {({isActive}) => isActive? activeStyle : undefined} end>
                 <img src={logo} alt="" />
+                
+            </NavLink>
             </div>
             <div className="menu-icon">
                      
@@ -50,7 +53,7 @@ const Navbar = () => {
             <div className={window.innerWidth > 750 || card === "nav" ? "menu" : "hide"}>
                 <NavLink to={"/"}  style = {({isActive}) => isActive? activeStyle : undefined} end>Home</NavLink>
                 <NavLink to={"/about"} style = {({isActive}) => isActive? activeStyle : undefined} end>About</NavLink>
-                <NavLink to={"/projects"} style = {({isActive}) => isActive? activeStyle : undefined} end>Projects</NavLink>
+                {/* <NavLink to={"/projects"} style = {({isActive}) => isActive? activeStyle : undefined} end>Projects</NavLink> */}
                 <div className="services">
                     <p onMouseOver={() => ShowCard("services")} onClick={ShowServices}>Services <FaCaretDown /></p>
                     <ul className={services || card === "services" ? "showServices" : "hide"} onMouseLeave={() => ShowCard(null)}>
