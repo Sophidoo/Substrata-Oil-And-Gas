@@ -18,15 +18,21 @@ const BlogBanner = () => {
                             <h3><u>Fueling Africa's Future: 5 Massive Oil and gas Projects Unveiled</u></h3>
                             <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>
                             <small>Written by: Raphael Santos July 5, 2023</small>
+                            <div className="buttonWrap">
+                            <button>Read More</button>
+                            </div>
                         </div>
                     </div>
                     <div className="blogBannerCard">
                         <img src="" alt="" />
                         <div className="blogBannerContent">
                             <h3><u>Changing crude flows are creating opportunities in the Us Golf Coast</u></h3>
-                            <p>By Tim Fitzgibbon, Anantharaman Shankar, and Luka Vukomanovic</p>
+                            <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>
                             <small>
-                            September 21, 2022 - Flows of medium-sour Urals crude from Russia to Asia are increasing, widening the discount for light and heavy crude grades.</small>
+                            Written by: Raphael Santos July 5, 2023</small>
+                            <div className="buttonWrap">
+                            <button>Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
