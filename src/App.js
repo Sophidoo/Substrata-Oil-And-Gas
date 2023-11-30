@@ -11,10 +11,15 @@ import WaterManagement from './pages/services/WaterManagement';
 import WellService from './pages/services/WellService';
 import TrainingService from './pages/services/TrainingService';
 import Seismic from './pages/services/Seismic';
+import 'react-toastify/dist/ReactToastify.min.css';
+import { ToastContainer } from 'react-toastify';
+
+
 
 function App() {
   return <>
     <Router>
+    <ToastContainer/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
