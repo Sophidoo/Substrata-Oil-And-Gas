@@ -15,22 +15,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true)
-    emailjs
-      .sendForm(
+    emailjs.sendForm(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         form.current,
         EMAILJS_PUBLIC_KEY
-      )
-      .then(
+    ).then(
         (result) => {
-          setLoading(false)
-          toast.success("Message Sent Successfully");
-          form.current.reset();
+            console.log(result);
+            setLoading(false)
+            toast.success("Message Sent Successfully");
+            form.current.reset();
         },
         (error) => {
             setLoading(false)
-          console.log(error.text);
+            console.log(error.text);
         }
       );
   };
