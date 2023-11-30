@@ -16,7 +16,7 @@ const OurPartners = () => {
         <div className="partnerWrapper">
             <div className="partnerOverlay">
                 <h2>OUR PARTNERS</h2>
-                <div className="partnerCardWrapper">
+                <div className="partnerCardWrapper partnerCardWrapper">
                     <img src={logo1} alt="" />
                     <img src={logo2} alt="" />
                     <img src={logo3} alt="" />
