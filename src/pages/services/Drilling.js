@@ -25,7 +25,7 @@ const Drilling = () => {
                 </p>
             </div>
         </section>
-        <section className="aimWrapper">
+        <section className="aimWrapper drillingAimWrapper">
             <div className="leftDrillingWrapper">
                 <div className="rect"></div>
                 <img src={cementing} alt="" />

@@ -164,7 +164,7 @@
 }
 
 @media(max-width: 1300px){
-    .aimWrapper{
+    .drillingAimWrapper{
         padding: 150px 5%;
     }
     .drillingServWrapper{
@@ -175,7 +175,7 @@
     }
 }
 @media(max-width: 1000px){
-    .aimWrapper{
+    .drillingAimWrapper{
         flex-direction: column;
         row-gap: 100px;
     }
@@ -201,7 +201,7 @@
     .rightDrilling{
         width: 100%;
     }
-    .aimWrapper .rect{
+    .drillingAimWrapper .rect{
         height: 50%;
         width: 50%;
         clip-path: polygon(0% 0%, 60% 0%, 100% 100%, 0% 100%);
@@ -277,7 +277,7 @@
     }
 }
 @media(max-width: 650px){
-    .aimWrapper .rect{
+    .drillingAimWrapper .rect{
         height: 45%;
     }
     .drillingServWrapper .rect{
@@ -291,7 +291,7 @@
     }
 }
 @media(max-width: 500px){
-    .aimWrapper .rect{
+    .drillingAimWrapper .rect{
         height: 45%;
         width: 70%;
     }
@@ -299,7 +299,7 @@
         height: 45%;
         width: 70%;
     }
-    .aimWrapper{
+    .drillingAimWrapper{
         padding-bottom: 50px;
     }
     .drillingServWrapper{
