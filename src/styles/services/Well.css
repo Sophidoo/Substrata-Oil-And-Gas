@@ -211,3 +211,223 @@
     line-height: 23px;
     color: var(--gray);
 }
+
+
+@media(max-width: 1300px){
+    .wellOverlay{
+        padding: 100px 5%;
+    }
+    .acquisitionOverlay{
+        padding: 150px 5%;
+    }
+    .wellServices{
+        padding: 150px 5%;
+    }
+    .productivityWrapper{
+        padding: 150px 5%;
+    }
+    .sandWrapper{
+        padding: 150px 5%;
+    }
+    .integrityOverlay{
+        padding: 150px 5%;
+    }
+    .wellOverlay h2{
+        font-size: 35px;
+    }
+    .wellOverlay p{
+        font-size: 15px;
+    }
+    .wellServices .content h2{
+        font-size: 30px;
+    }
+    .wellServices p{
+        font-size: 14px;
+    }
+    .wellServices ul{
+        font-size: 14px;
+    }
+    .topSection .content h2{
+        font-size: 30px;
+    }
+    .topSection p{
+        font-size: 14px;
+    }
+    .productivityWrapper .content h2{
+        font-size: 30px;
+    }
+    .productivityWrapper .content p{
+        font-size: 14px;
+    }
+    .sandWrapper .content h2{
+        font-size: 30px;
+    }
+    .sandWrapper .content p{
+        font-size: 14px;
+    }
+    .integrityOverlay h2{
+        font-size: 30px;
+    }
+    .integrityOverlay p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 1000px){
+    .wellServices{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .wellServices img{
+        width: 100%;
+        height: 300px;
+    }
+    .wellServices .content{
+        width: 100%;
+    }
+    .acquisitionOverlay img{
+        margin-top: 0px;
+    }
+    .productivityWrapper{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .productivityWrapper .content{
+        width: 100%;
+    }
+    .productivityWrapper img{
+        width: 100%;
+        height: 300px;
+    }
+    .sandWrapper{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .sandWrapper .content{
+        width: 100%;
+    }
+    .sandWrapper img{
+        width: 100%;
+        height: 300px;
+    }
+    .wellOverlay h2{
+        font-size: 35px;
+    }
+    .wellOverlay p{
+        font-size: 15px;
+    }
+    .wellServices .content h2{
+        font-size: 28px;
+    }
+    .topSection .content h2{
+        font-size: 28px;
+    }
+    .productivityWrapper .content h2{
+        font-size: 28px;
+    }
+    .sandWrapper .content h2{
+        font-size: 28px;
+    }
+    .integrityOverlay h2{
+        font-size: 28px;
+    }
+}
+@media(max-width: 750px){
+    .wellServices{
+        padding: 100px 5%;
+    }
+    .acquisitionOverlay{
+        flex-direction: column;
+        row-gap: 50px;
+        padding: 100px 5%;
+    }
+    .topSection{
+        flex-direction: column;
+        align-items: center;
+    }
+    .topSection .content{
+        width: 100%;
+    }
+    .wellOverlay p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px){
+    .wellOverlay h2{
+        font-size: 28px;
+    }
+    .wellOverlay p{
+        font-size: 14px;
+    }
+    .wellServices .content h2{
+        font-size: 23px;
+    }
+    .wellServices p{
+        font-size: 13px;
+    }
+    .wellServices ul{
+        font-size: 13px;
+    }
+    .topSection .content h2{
+        font-size: 23px;
+    }
+    .topSection p{
+        font-size: 13px;
+    }
+    .productivityWrapper .content h2{
+        font-size: 23px;
+    }
+    .productivityWrapper .content p{
+        font-size: 13px;
+    }
+    .sandWrapper .content h2{
+        font-size: 23px;
+    }
+    .sandWrapper .content p{
+        font-size: 13px;
+    }
+    .integrityOverlay h2{
+        font-size: 23px;
+    }
+    .integrityOverlay p{
+        font-size: 13px;
+    }
+    .wellServices img{
+        height: 250px;
+    }
+    .acquisitionOverlay img{
+        height: 250px;
+    }
+    .productivityWrapper .content h3{
+        font-size: 15px;
+    }
+    .productivityWrapper img{
+        height: 250px;
+    }
+    .sandWrapper img{
+        height: 250px;
+    }
+    .wellServices{
+        padding: 100px 5%;
+    }
+    .acquisitionOverlay{
+        padding: 100px 5%;
+    }
+    .productivityWrapper{
+        padding: 100px 5%;
+    }
+    .sandWrapper{
+        padding: 100px 5%;
+    }
+}
+
+@media(max-width: 400px){
+    .topSection img{
+        width: 100%;
+        height: auto;
+    }
+    .acquisitionOverlay img{
+        width: 100%;
+        height: auto;
+    }
+}
