@@ -418,6 +418,9 @@
     .procurement .content{
         flex-direction: column;
     }
+    .procurement .content ul{
+        width: 100%;
+    }
     .imagery{
         padding: 100px 5%;
     }
