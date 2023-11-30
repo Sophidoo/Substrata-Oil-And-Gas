@@ -6,7 +6,7 @@
     height: fit-content;
     margin-top: 79px;
 }
-.subSurfaceHero .suboverlay{
+.suboverlay{
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -82,4 +82,96 @@
 }
 .seismicAsh{
     background-color: var(--ash);
+}
+
+
+@media(max-width: 1300px){
+    .suboverlay{
+        padding: 0px 5%;
+    }
+    .seismic{
+        padding: 150px 5%;
+    }
+    .leftSeismic h2{
+        font-size: 30px;
+    }
+    .subSurfaceHero .suboverlay h2{
+        font-size: 40px;
+    }
+    .subSurfaceHero .suboverlay p{
+        font-size: 15px;
+    }
+    .leftSeismic p{
+        font-size: 14px;
+    }
+    .leftSeismic img{
+        width: 200px !important;
+        height: 60px !important;
+        object-position: top;
+    }
+}
+@media(max-width: 1000px){
+    .seismic{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    .seismicAsh{
+        row-gap: 50px;
+        flex-direction: column;
+    }
+    .seismic img{
+        width: 100%;
+        height: 300px;
+    }
+    .leftSeismic{
+        width: 100%;
+    }
+    .subSurfaceHero .suboverlay h2{
+        font-size: 30px;
+    }
+    .subSurfaceHero .suboverlay p{
+        font-size: 15px;
+    }
+    .leftSeismic h2{
+        font-size: 28px;
+    }
+    .leftSeismic p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 750px){
+    .subSurfaceHero .suboverlay p{
+        width: 100%;
+    }
+    .leftSeismic h2{
+        font-size: 25px;
+    }
+    .leftSeismic p{
+        font-size: 13px;
+    }
+    .leftSeismic img{
+        width: 180px !important;
+        top: -5px;
+        left: -10px;
+        height: 40px !important;
+        object-position: top;
+    }
+    .seismic{
+        padding: 100px 5%;
+    }
+}
+@media(max-width: 500px){
+    .leftSeismic h2{
+        font-size: 23px;
+    }
+    .seismic img{
+        height: 250px;
+    }
+    .subSurfaceHero .suboverlay h2{
+        font-size: 28px;
+    }
+    .subSurfaceHero .suboverlay p{
+        font-size: 14px;
+    }
 }
