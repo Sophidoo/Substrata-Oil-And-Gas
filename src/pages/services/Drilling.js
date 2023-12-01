@@ -6,12 +6,19 @@ import Footer from "../../components/Footer"
 import sickline from "../../assets/images/sickline services.png"
 import downhole1 from "../../assets/images/Downhole-Camera.png"
 import downhole2 from "../../assets/images/downhole camera.png"
+import {motion} from 'framer-motion'
+
 
 const Drilling = () => {
     return<>
     <Navbar/>
     <section className="drillingWrapper">
             <div className="overlay service">
+            <motion.div
+            animate={{ y: [50, 0], opacity: 1}  }
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+            >
                 <h2>Drilling Services</h2>
                 <p>We have a team that support our esteemed clients in ensuring efficient, on-time and successful delivery of their drilling campaigns. Services supported are;
                 <ul>
@@ -23,6 +30,8 @@ const Drilling = () => {
                     <li>Waste management services...</li>
                 </ul>
                 </p>
+            </motion.div>
+
             </div>
         </section>
         <section className="aimWrapper drillingAimWrapper">

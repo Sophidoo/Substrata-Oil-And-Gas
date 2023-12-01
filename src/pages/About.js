@@ -9,26 +9,75 @@ import { GiCargoCrane } from "react-icons/gi";
 import mission from "../assets/images/mission.jpg"
 import vission from "../assets/images/vission.jpg"
 import office from "../assets/images/office.png"
+import {motion} from 'framer-motion';
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
+    const [ref, inView] = useInView();
     
     return<>
         <Navbar/>
 
         <div className="aboutHeroWrapper">
             <div className="leftAbout">
-                <h1>Corporate Profile</h1>
+                <motion.div
+                animate={{ y: [100, 0], opacity: 1 }}
+                initial={{opacity: 0}}
+                transition={{duration: 2}}
+                
+                >
+                    <h1>Corporate Profile</h1>
+                </motion.div>
                 <div className="aboutDetails">
+                <motion.div
+                animate={{ y: [100, 0], opacity: 1 }}
+                initial={{opacity: 0}}
+                transition={{duration: 2}}
+                
+                >
                     <p>Substrata Oil and Gas Limited (RC 663293) was incorporated in 2006 to carry out oil field services to the Oil and Gas industry in Nigeria.</p>
+                </motion.div>
+                <motion.div
+                animate={{ y: [100, 0], opacity: 1 }}
+                initial={{opacity: 0}}
+                transition={{duration: 2}}
+                
+                >
                     <p>The need to reduce costs by introducing new, effective and efficient technology, coupled with the recent introduction of new Government policies aimed at encouraging and ensuring more participation by competent Nigerians in the upstream Oil & Gas Industry has played an important role in the development of Substrata Oil and Gas Limited.</p>
+                </motion.div>
+                <motion.div
+                animate={{ y: [100, 0], opacity: 1 }}
+                initial={{opacity: 0}}
+                transition={{duration: 2}}
+                
+                >
                     <p>Substrata Oil and Gas Limited is wholly Nigerian owned with local and international affiliations and partnerships. Our operations are knowledge driven backed by technology.</p>
-                    <p>Strengthened by a board of directors with vast experience in the oil and gas industry, and staff driven by the zeal to deliver qualitative, on-time and cost effective services to our esteemed clients, we are poised to ensure the delivery of qualitative and reliable services.</p>
+                </motion.div>
+                <motion.div
+                animate={{ y: [100, 0], opacity: 1 }}
+                initial={{opacity: 0}}
+                transition={{duration: 2}}
+                
+                >
+                     <p>Strengthened by a board of directors with vast experience in the oil and gas industry, and staff driven by the zeal to deliver qualitative, on-time and cost effective services to our esteemed clients, we are poised to ensure the delivery of qualitative and reliable services.</p>
+                </motion.div>
+                    
+                    
+                    
+                   
                 </div>
             </div>
             <div className="rightAbout">
                 <img src={office} alt="" />
             </div>
         </div>
+
+        <motion.div
+            ref={ref}
+            animate={inView ? {opacity: 1} : {opacity: 0}}
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+        >
 
         <div className="missionVisionWrapper">
             <div className="missionWrapper">
@@ -53,6 +102,7 @@ const About = () => {
                 <img src={vission} alt="" />
             </div>
         </div>
+        </motion.div>
 
         <section className="valuesWrapper">
             <h2>Our Corporate values</h2>

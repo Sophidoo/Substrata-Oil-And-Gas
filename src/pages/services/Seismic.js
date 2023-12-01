@@ -6,6 +6,7 @@ import dataEnhancement from "../../assets/images/data enhancement image.png"
 import analysis1 from "../../assets/images/seismic analysis1.png"
 import analysis2 from "../../assets/images/seismic analysis2.png"
 import facility from "../../assets/images/computing facility.png"
+import {motion} from 'framer-motion'
 
 
 const Seismic = () => {
@@ -13,8 +14,15 @@ const Seismic = () => {
     <Navbar/>
     <div className="seismicWrapper">
         <div className="seismicOverlay">
+        <motion.div
+          animate={{ y: [50, 0], opacity: 1}  }
+          initial={{opacity: 0}}
+          transition={{duration: 2, ease: "easeInOut"}}
+        >
+
             <h2>Seismic Data Processing</h2>
             <p>Substrata Oil and Gas Limited provides 2D, 3D and 4D seismic data processing and analysis including time processing, depth imaging, for oil & gas companies with combined seismic experience and the latest state-of-the-art computer systems and software to give our clients the best stratigraphic and structural geophysical services available. With our technical partner Geomage, we provide innovative processing solutions to the Oil and Gas industry. Geomage team comes with vast experience, processing the most difficult seismic. .</p>
+        </motion.div>
         </div>
     </div>
 

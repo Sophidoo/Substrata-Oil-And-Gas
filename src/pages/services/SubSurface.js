@@ -7,6 +7,7 @@ import fielddev from "../../assets/images/fielddev.png"
 import fieldopt from "../../assets/images/fieldoptimization.png"
 import seismic from "../../assets/images/seismicAcquisition.png"
 import graph from "../../assets/images/surfacegraph.png"
+import {motion} from 'framer-motion'
 
 
 const SubSurface = () => {
@@ -14,6 +15,11 @@ const SubSurface = () => {
         <Navbar/>
         <section className="subSurfaceHero">
             <div className="suboverlay">
+            <motion.div
+            animate={{ y: [50, 0], opacity: 1}  }
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+            >
                 <h2>Sub-Surface Service</h2>
                 <p>Our team of seismic experts have a combined experience of over 100 years of seismic design, acquisition and supervision. <br/>
                 Combined, our team has seismic experience spanning all the continents of the world. Our expertise includes;
@@ -24,6 +30,7 @@ const SubSurface = () => {
                     <li>4D Seismic</li>
                 </ul>
                 </p>
+            </motion.div>
             </div>
         </section>
 

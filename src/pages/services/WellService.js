@@ -6,6 +6,7 @@ import analysis2 from "../../assets/images/well analysis.png"
 import tanks from "../../assets/images/water tanks.png"
 import pipes from "../../assets/images/pipeConnection.png"
 import machine from "../../assets/images/water checking machine.png"
+import {motion} from 'framer-motion'
 
 
 const WellService = () => {
@@ -13,9 +14,15 @@ const WellService = () => {
     <Navbar/>
         <div className="wellWrapper">
             <div className="wellOverlay">
+            <motion.div
+            animate={{ y: [50, 0], opacity: 1}  }
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+            >
                 <h2>Well Services</h2>
                 <p>We offer a vast range of measurement and testing solutions, through the lifecycle of wells. We have what it takes to undertake surface testing and information gathering services; we guarantee reliable answers about your well's productivity, fluid properties, composition, etc. <br/>
                 Our goal is to provide high-quality, safe and affordable services that give you the information and data you need to maximize the productivity of your wells.</p>
+            </motion.div>
             </div>
         </div>
         <section className="wellServices">

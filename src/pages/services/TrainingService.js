@@ -2,6 +2,7 @@ import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar"
 import "../../styles/services/Training.css"
 import course from "../../assets/images/course picture.png"
+import {motion} from 'framer-motion'
 
 
 const TrainingService = () => {
@@ -9,8 +10,14 @@ const TrainingService = () => {
     <Navbar/>
         <div className="trainingWrapper">
             <div className="trainingOverlay">
+            <motion.div
+            animate={{ y: [50, 0], opacity: 1}  }
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+            >
                 <h2>Training Services</h2>
                 <p>Welcome to Substrata's Training Services, your gateway to comprehensive and specialized courses in the field of petroleum engineering, petroleum geology, process engineering, business development, and health, safety, and environment. Our training programs are meticulously crafted to cater to industry-specific disciplines and technical challenges, ensuring that professionals are equipped with the latest knowledge and skills to excel in their careers.</p>
+            </motion.div>
             </div>
         </div>
         <section className="trainingSecondSection">

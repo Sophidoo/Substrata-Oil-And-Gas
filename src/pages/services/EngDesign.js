@@ -9,16 +9,24 @@ import banner from "../../assets/images/EngineeringServiceBanner.png"
 import imagery from "../../assets/images/imagery.png"
 import laser from "../../assets/images/laser.png"
 import Footer from "../../components/Footer";
+import {motion} from 'framer-motion'
 
 const EngDesign = () => {
 
     return<>
         <Navbar/>
+
         <section className="serviceWrapper">
             <div className="overlay service">
+        <motion.div
+          animate={{ y: [50, 0], opacity: 1}  }
+          initial={{opacity: 0}}
+          transition={{duration: 2, ease: "easeInOut"}}
+        >
                 <h2>Engineering Design</h2>
                 <p>We undertake a wide range of Engineering, Procurement and Project management tasks for oil exploration and production facilities, gas production and processing facilities, separation, liquefaction and oil refining. Our professional approach places us first on the list when considering new tasks or technologies. <br/>
                 Projects we have executed include engineering analysis, procurement assistance and project management services. Our approach is always flexible, ensuring our esteemed clients satisfaction.</p>
+        </motion.div>
             </div>
         </section>
         <section className="aimWrapper">

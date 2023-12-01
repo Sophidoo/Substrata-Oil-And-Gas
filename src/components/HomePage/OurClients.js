@@ -27,8 +27,8 @@ const OurClient = () => {
                     <img src={logo7} alt="" />
                     <img src={logo8} alt="" />
                     <img src={logo9} alt="" />
-                    <img src={logo10} alt="" />
-                    <img src={logo11} alt="" />
+                    <img src={logo10} alt=""/>
+                    <img src={logo11} alt=""/>
                 </div>
             </div>
         </div>

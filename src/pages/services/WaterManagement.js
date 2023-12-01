@@ -2,14 +2,21 @@ import Navbar from "../../components/Navbar"
 import "../../styles/services/WaterManagement.css"
 import table from "../../assets/images/wmtable.png"
 import Footer from "../../components/Footer";
+import {motion} from 'framer-motion'
 
 const WaterManagement = () => {
     return<>
     <Navbar/>
         <section className="waterManagementWrapper">
             <div className="overlay service">
+            <motion.div
+            animate={{ y: [50, 0], opacity: 1}  }
+            initial={{opacity: 0}}
+            transition={{duration: 2, ease: "easeInOut"}}
+            >
                 <h2>Produced Water Management Service</h2>
                 <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
+            </motion.div>
             </div>
         </section>
         <section className="topContent">

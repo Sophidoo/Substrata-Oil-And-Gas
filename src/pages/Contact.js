@@ -7,6 +7,7 @@ import { ImLocation } from "react-icons/im";
 import Footer from "../components/Footer";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import {motion} from 'framer-motion'
 import { EMAILJS_PUBLIC_KEY, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID } from "../utils/secretkeys";
 const Contact = () => {
   const form = useRef();
@@ -40,6 +41,11 @@ const Contact = () => {
 
       <div className="contactWrapper">
         <div className="leftContact">
+        <motion.div
+          animate={{opacity: 1}  }
+          initial={{opacity: 0}}
+          transition={{duration: 2, ease: "easeInOut"}}
+        >
           <div className="contactHeading">
             <h1>Contact Us</h1>
             <hr />
@@ -48,6 +54,13 @@ const Contact = () => {
               we’ll be glad to help.
             </p>
           </div>
+        </motion.div>
+        <motion.div
+          animate={{opacity: 1}  }
+          initial={{opacity: 0}}
+          transition={{duration: 2, ease: "easeInOut"}}
+        >
+
           <div className="contactInfo">
             <h2>Port Harcourt</h2>
             <p>
@@ -65,7 +78,9 @@ const Contact = () => {
               </span>
             </p>
           </div>
+        </motion.div>
         </div>
+        
 
         <div className="rightContact">
           <h2>Send us an email</h2>
