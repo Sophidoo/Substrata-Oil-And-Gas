@@ -29,10 +29,10 @@ const Footer = () => {
             <ul>
                 <h3>Useful Link</h3>
                 <ul  className="footer_menu">
-                    <NavLink>About Us </NavLink>
+                    <NavLink to={"/about"}>About Us </NavLink>
                     <NavLink>Career</NavLink>
                     <NavLink>HSE</NavLink>
-                    <NavLink>Contact Us</NavLink>
+                    <NavLink to={"/contact"}>Contact Us</NavLink>
                 </ul>
             </ul>
             <div className="contact">
