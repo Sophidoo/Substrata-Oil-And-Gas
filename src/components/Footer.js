@@ -6,10 +6,12 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import "../styles/components/Footer.css";
 import logo from "../assets/images/SOGLogo_2-removebg-preview 1.png";
+import Download from "./Download";
 
 const Footer = () => {
   return (
     <>
+      <Download />
       <footer>
         <ul className="companyInfo">
           <img src={logo} alt="" />
