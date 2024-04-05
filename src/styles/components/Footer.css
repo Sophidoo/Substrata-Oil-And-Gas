@@ -1,7 +1,7 @@
 footer {
   background-color: black;
   color: white;
-  /* border-top: 1px solid rgb(210, 210, 210); */
+  border-top: 1px solid rgb(46, 46, 46);
   display: flex;
   justify-content: space-between;
   padding: 80px 10%;
@@ -129,7 +129,7 @@ footer .footer_menu {
   justify-content: center;
   text-align: center;
   row-gap: 9px;
-  background-color: var(--blue);
+  background-color: black;
   color: white;
 }
 .downloadWrapper h3 {
