@@ -1,0 +1,118 @@
+.careersHero {
+  height: 40vh;
+  background-image: url("../assets/images/factory.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 79px;
+}
+.careersHero h1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.careersContent {
+  padding: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.careersContent h3 {
+  font-size: 30px;
+  color: var(--blue);
+}
+.careersContent p {
+  text-align: justify;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.hseHero {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10%;
+  column-gap: 50px;
+}
+.leftHse {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.leftHse h3 {
+  font-size: 30px;
+  color: var(--blue);
+}
+.leftHse p {
+  line-height: 20px;
+  text-align: justify;
+  font-size: 14px;
+}
+.leftHse ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.leftHse h4 {
+  margin-bottom: 10px;
+}
+.leftHse li {
+  margin-left: 15px;
+}
+.rightHse {
+  width: 45%;
+}
+.rightHse img {
+  position: sticky;
+  top: 150px;
+  object-fit: cover;
+  width: 100%;
+  background-color: gray;
+  height: auto;
+}
+
+@media (max-width: 1300px) {
+  .careersContent {
+    padding: 80px 5%;
+  }
+  .hseHero {
+    padding: 100px 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .hseHero {
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .leftHse {
+    width: 100%;
+  }
+  .rightHse {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .careersContent h3 {
+    font-size: 25px;
+  }
+  .careersContent {
+    padding: 50px 5%;
+  }
+  .careersHero h1 {
+    font-size: 40px;
+  }
+  .rightHse {
+    width: 100%;
+  }
+  .leftHse h3 {
+    font-size: 25px;
+  }
+}

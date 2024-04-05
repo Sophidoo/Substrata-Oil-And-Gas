@@ -8,6 +8,7 @@ import BlogBanner from "./BlogBanner"
 import ServiceCard5 from "../HomeServices/ServiceCard5"
 import ServiceCard7 from "../HomeServices/ServiceCard7"
 import ServiceCard6 from "../HomeServices/ServiceCard6"
+import ServiceCard8 from "../HomeServices/ServiceCard8"
 
 const Services = () => {
     return<>
@@ -23,6 +24,7 @@ const Services = () => {
             <ServiceCard2/>
             <ServiceCard3/>
             <ServiceCard4/>
+            <ServiceCard8/>
         </section>
         <BlogBanner/>
         <section className="homeServices">
