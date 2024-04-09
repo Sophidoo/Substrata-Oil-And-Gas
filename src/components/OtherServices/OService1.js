@@ -10,7 +10,7 @@ const OServiceCard1 = () => {
       
     
     return<>
-            <div className="serviceCard serviceCard2" >
+            <div className="serviceCard serviceCard2 ashService" style={{marginTop: "0px"}} >
                 <div className="serviceImage">
                     <div className="rect"></div>
                     <img src={require("../../assets/images/openhole.png")} alt="" />

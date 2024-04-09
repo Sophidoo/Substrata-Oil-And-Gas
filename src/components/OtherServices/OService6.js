@@ -10,7 +10,7 @@ const OServiceCard6 = () => {
       
     
     return<>
-            <div className="serviceCard  " >
+            <div className="serviceCard  " style={{marginBottom: "80px"}} >
                 
                 <div className="serviceContent">
                 <motion.div 

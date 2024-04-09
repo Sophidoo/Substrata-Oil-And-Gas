@@ -8,9 +8,13 @@ import OServiceCard6 from "../OtherServices/OService6"
 
 const OServices = () => {
     return<>
-        <section className="homeServices otherServices">
-        
+    <div className="otherServices">
+        <div className="otherServicesOverlay">
             <h1>OTHER SERVICES WE OFFER</h1>
+        </div>
+    </div>
+        <section className="homeServices ">
+        
             <OServiceCard1/>
             <OServiceCard2/>
             <OServiceCard3/>
