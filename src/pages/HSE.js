@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import cert from "../assets/images/1.jpg";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/Careers.css";
 
 const HSE = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

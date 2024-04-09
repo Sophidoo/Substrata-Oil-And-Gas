@@ -15,6 +15,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import { ToastContainer } from 'react-toastify';
 import Careers from './pages/Careers';
 import HSE from './pages/HSE';
+import OtherServices from './pages/OtherServices';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/careers' element={<Careers/>}/>
         <Route path='/HSE' element={<HSE/>}/>
+        <Route path='/other-services' element={<OtherServices/>}/>
         <Route path='/services'>
           <Route path='engineering-design' element={<EngDesign/>}/>
           <Route path='subsurface-service' element={<SubSurface/>}/>

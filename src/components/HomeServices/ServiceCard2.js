@@ -6,10 +6,12 @@ import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import seismic from "../../assets/images/seismic image.png"
+import {useNavigate} from "react-router"
 
 const ServiceCard2 = () => {
     
     const [ref, inView] = useInView();
+    const navigate = useNavigate()
 
     return<>
         <div className="serviceCard">
@@ -44,7 +46,7 @@ const ServiceCard2 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <button>Learn More <FaArrowRight/></button>
+                    <button  onClick={() => navigate("/services/seismic-services")}>Learn More <FaArrowRight/></button>
                 </motion.div>
             </div>
             <div className="serviceImage">

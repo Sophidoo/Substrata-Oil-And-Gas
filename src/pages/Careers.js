@@ -1,9 +1,12 @@
-import factory from "../assets/images/factory.jpg";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/Careers.css";
 
 const Careers = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

@@ -5,6 +5,7 @@
     background-position: center;
     margin-top: 79px;
 }
+
 .overlay{
     height: 90vh;
     width: 100%;
@@ -102,6 +103,11 @@
     padding: 40px 13%;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+.otherServices{
+    margin-top: 79px;
+    padding: 100px 0px;
 }
 .ashService{
     padding: 130px 13%;

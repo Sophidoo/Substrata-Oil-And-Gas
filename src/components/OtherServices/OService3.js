@@ -5,19 +5,21 @@ import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import water from "../../assets/images/waterManagementBackground.png"
-import {useNavigate} from "react-router"
+import surface from "../../assets/images/SubSurfacebg.png"
 
-const ServiceCard4 = () => {
+const OServiceCard3 = () => {
     const [ref, inView] = useInView();
-    const navigate = useNavigate()
 
     return<>
-        <div className="serviceCard">
+        <div className="serviceCard serviceCard2 ">
+            <div className="serviceImage">
+                <div className="rect"></div>
+                <img src={require("../../assets/images/corrosion.png")} alt="" />
+            </div>
             <div className="serviceContent">
                 <motion.div 
                     ref={ref}
-                    animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
+                    animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
@@ -25,35 +27,34 @@ const ServiceCard4 = () => {
                 </motion.div>
                 <motion.div 
                     ref={ref}
-                    animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
+                    animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <h3>Produced Water Management Services</h3>
+                    <h3>Corrosion Log Interpretation</h3>
                 </motion.div>
                 <motion.div 
                     ref={ref}
-                    animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
+                    animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
+                    <ul>
+                        <li>Tubing/Casing ID and thickness profiling for burst pressure computation </li>
+                        <li>Pre-job and post-job support</li>
+                    </ul>
                 </motion.div>
                 <motion.div 
                     ref={ref}
-                    animate={inView ? {opacity: 1, x: [-100, 0]} : {opacity: 0}}
+                    animate={inView ? {opacity: 1, y: [100, 0]} : {opacity: 0}}
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <button  onClick={() => navigate("/services/produced-water-management")}>Learn More <FaArrowRight/></button>
                 </motion.div>
-            </div>
-            <div className="serviceImage">
-                <div className="rect"></div>
-                <img src={water} alt="" />
             </div>
         </div>
+        
     </>
 }
 
-export default ServiceCard4
+export default OServiceCard3

@@ -5,15 +5,14 @@ import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import water from "../../assets/images/waterManagementBackground.png"
-import {useNavigate} from "react-router"
+import seismic from "../../assets/images/seismic image.png"
 
-const ServiceCard4 = () => {
+const OServiceCard2 = () => {
+    
     const [ref, inView] = useInView();
-    const navigate = useNavigate()
 
     return<>
-        <div className="serviceCard">
+        <div className="serviceCard ashService">
             <div className="serviceContent">
                 <motion.div 
                     ref={ref}
@@ -29,7 +28,7 @@ const ServiceCard4 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <h3>Produced Water Management Services</h3>
+                    <h3>Cement bond log evaluation</h3>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -37,7 +36,10 @@ const ServiceCard4 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <p>We offer an array of specialized oil field services, including Oil Well Cementing, Fishing Services, Downhole Camera Services, Slickline and Wireline Services, and Drilling Support Services, encompassing OCTGs, DD, and FEWD. Our expertise ensures efficient and reliable solutions for the oil and gas industry's diverse operational needs.</p>
+                    <ul>
+                        <li>Provision of cement bond log processing, analysis and interpretation. </li>
+                        <li>Identification of Top of Cement (TOC)</li>
+                    </ul>
                 </motion.div>
                 <motion.div 
                     ref={ref}
@@ -45,15 +47,15 @@ const ServiceCard4 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <button  onClick={() => navigate("/services/produced-water-management")}>Learn More <FaArrowRight/></button>
                 </motion.div>
             </div>
             <div className="serviceImage">
                 <div className="rect"></div>
-                <img src={water} alt="" />
+                <img src={require("../../assets/images/cementbond.png")} alt="" />
             </div>
         </div>
+
     </>
 }
 
-export default ServiceCard4
+export default OServiceCard2

@@ -3,9 +3,11 @@ import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import circle from "../../assets/images/circleGroup.svg"
 import engineering from "../../assets/images/engineering.jpg"
+import {useNavigate} from "react-router"
 
 const ServiceCard1 = () => {
     const [ref, inView] = useInView();
+    const navigate = useNavigate()
 
       
     
@@ -49,7 +51,7 @@ const ServiceCard1 = () => {
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
 
-                    <button>Learn More <FaArrowRight/></button>
+                    <button onClick={() => navigate("/services/engineering-design")}>Learn More <FaArrowRight/></button>
                 </motion.div>
                 </div>
             </div>

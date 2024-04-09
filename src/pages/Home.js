@@ -8,10 +8,14 @@ import Services from "../components/HomePage/Services";
 import Footer from "../components/Footer";
 import OurClient from "../components/HomePage/OurClients";
 import OurPartners from "../components/HomePage/OutPartners";
+import { useEffect } from "react";
 
 const Home = () => {
     const navigate = useNavigate()
     const [ref, inView] = useInView();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
       
     

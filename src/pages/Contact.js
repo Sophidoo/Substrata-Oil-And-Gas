@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import "../styles/Contact.css";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AiTwotoneMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
@@ -12,6 +12,9 @@ import { EMAILJS_PUBLIC_KEY, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID } from "../
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();

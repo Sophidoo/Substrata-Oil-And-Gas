@@ -51,7 +51,7 @@ nav .services .showServices{
 }
 nav .services a{
     border-bottom: 1px solid rgb(226, 226, 226);
-    padding: 15px;
+    padding: 13px 15px;
     font-size: 14px;
 }
 nav a:hover{

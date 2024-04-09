@@ -3,10 +3,12 @@ import circle from "../../assets/images/circleGroup.svg";
 import engineering from "../../assets/images/engineering.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import {useNavigate} from "react-router"
 import surface from "../../assets/images/SubSurfacebg.png";
 
 const ServiceCard8 = () => {
   const [ref, inView] = useInView();
+  const navigate = useNavigate()
 
   return (
     <>
@@ -30,7 +32,7 @@ const ServiceCard8 = () => {
             initial={{ opacity: 0 }}
             transition={{ duration: 0.5, ease: "easeIn", type: "spring" }}
           >
-            <h3>Open-Hole Petrophysical Evaluation</h3>
+            <h3>Other Services</h3>
           </motion.div>
           <motion.div
             ref={ref}
@@ -39,14 +41,13 @@ const ServiceCard8 = () => {
             transition={{ duration: 0.5, ease: "easeIn", type: "spring" }}
           >
             <p>
-              Gain insights from our Open-Hole Petrophysical Evaluation service.
-              Leveraging advanced techniques, we deliver precise assessments to
-              optimize oil exploration and production strategies. <br /> Our
-              expertise includes:
               <ul>
-                <li>LWD/Wireline Log QC </li>
-                <li>Petrophysical Interpretation (basic and advanced) </li>
-                <li>Formation Testing analysis and Real-time support </li>
+                <li>Open-Hole Petrophysical Evaluation </li>
+                <li>Cement bond log evaluation </li>
+                <li>Corrosion Log Interpretation </li>
+                <li>Production Log Interpretation </li>
+                <li>Cased-Hole Formation Evaluation </li>
+                <li>Services/Production Enhancement </li>
               </ul>
             </p>
           </motion.div>
@@ -56,7 +57,7 @@ const ServiceCard8 = () => {
             initial={{ opacity: 0 }}
             transition={{ duration: 0.5, ease: "easeIn", type: "spring" }}
           >
-            <button>
+            <button onClick={() => navigate("/other-services")}>
               Learn More <FaArrowRight />
             </button>
           </motion.div>

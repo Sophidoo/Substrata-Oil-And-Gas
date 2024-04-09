@@ -11,9 +11,13 @@ import vission from "../assets/images/vission.jpg"
 import office from "../assets/images/office.png"
 import {motion} from 'framer-motion';
 import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const About = () => {
     const [ref, inView] = useInView();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     
     return<>
         <Navbar/>

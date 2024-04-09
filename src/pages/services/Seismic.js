@@ -7,9 +7,13 @@ import analysis1 from "../../assets/images/seismic analysis1.png"
 import analysis2 from "../../assets/images/seismic analysis2.png"
 import facility from "../../assets/images/computing facility.png"
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 
 const Seismic = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return<>
     <Navbar/>
     <div className="seismicWrapper">

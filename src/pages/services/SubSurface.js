@@ -8,9 +8,13 @@ import fieldopt from "../../assets/images/fieldoptimization.png"
 import seismic from "../../assets/images/seismicAcquisition.png"
 import graph from "../../assets/images/surfacegraph.png"
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 
 const SubSurface = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return<>
         <Navbar/>
         <section className="subSurfaceHero">

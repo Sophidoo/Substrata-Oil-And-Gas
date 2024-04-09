@@ -10,8 +10,12 @@ import imagery from "../../assets/images/imagery.png"
 import laser from "../../assets/images/laser.png"
 import Footer from "../../components/Footer";
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 const EngDesign = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     return<>
         <Navbar/>

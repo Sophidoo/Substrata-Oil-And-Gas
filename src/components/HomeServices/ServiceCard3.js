@@ -6,9 +6,11 @@ import engineering from "../../assets/images/engineering.jpg"
 import {  motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import surface from "../../assets/images/SubSurfacebg.png"
+import {useNavigate} from "react-router"
 
 const ServiceCard3 = () => {
     const [ref, inView] = useInView();
+    const navigate = useNavigate()
 
     return<>
         <div className="serviceCard serviceCard2 ashService">
@@ -54,7 +56,7 @@ const ServiceCard3 = () => {
                     initial={{opacity: 0}}
                     transition={{duration: 0.5, ease: "easeIn", type: "spring"}}
                 >
-                    <button>Learn More <FaArrowRight/></button>
+                    <button onClick={() => navigate("/services/subsurface-service")}>Learn More <FaArrowRight/></button>
                 </motion.div>
             </div>
         </div>

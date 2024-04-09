@@ -3,8 +3,12 @@ import "../../styles/services/WaterManagement.css"
 import table from "../../assets/images/wmtable.png"
 import Footer from "../../components/Footer";
 import {motion} from 'framer-motion'
+import { useEffect } from "react";
 
 const WaterManagement = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return<>
     <Navbar/>
         <section className="waterManagementWrapper">

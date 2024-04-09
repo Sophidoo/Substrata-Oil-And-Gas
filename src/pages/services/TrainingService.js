@@ -3,9 +3,13 @@ import Navbar from "../../components/Navbar"
 import "../../styles/services/Training.css"
 import course from "../../assets/images/course picture.png"
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 
 const TrainingService = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return <>
     <Navbar/>
         <div className="trainingWrapper">

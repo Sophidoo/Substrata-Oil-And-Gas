@@ -7,9 +7,13 @@ import sickline from "../../assets/images/sickline services.png"
 import downhole1 from "../../assets/images/Downhole-Camera.png"
 import downhole2 from "../../assets/images/downhole camera.png"
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 
 const Drilling = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return<>
     <Navbar/>
     <section className="drillingWrapper">

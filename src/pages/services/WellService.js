@@ -7,9 +7,13 @@ import tanks from "../../assets/images/water tanks.png"
 import pipes from "../../assets/images/pipeConnection.png"
 import machine from "../../assets/images/water checking machine.png"
 import {motion} from 'framer-motion'
+import { useEffect } from "react"
 
 
 const WellService = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return<>
     <Navbar/>
         <div className="wellWrapper">

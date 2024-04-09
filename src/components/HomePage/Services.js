@@ -24,13 +24,13 @@ const Services = () => {
             <ServiceCard2/>
             <ServiceCard3/>
             <ServiceCard4/>
-            <ServiceCard8/>
         </section>
         <BlogBanner/>
         <section className="homeServices">
             <ServiceCard5/>
             <ServiceCard6/>
             <ServiceCard7/>
+            <ServiceCard8/>
         </section>
 
     </>
