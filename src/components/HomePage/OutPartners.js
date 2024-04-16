@@ -8,6 +8,7 @@ import logo7 from "../../assets/images/Our Partners/logo7.png"
 import logo8 from "../../assets/images/Our Partners/logo8.png"
 import logo9 from "../../assets/images/Our Partners/logo9.png"
 import logo10 from "../../assets/images/Our Partners/logo10.png"
+import logo11 from "../../assets/images/Our Partners/gicsl.png"
 
 
 const OurPartners = () => {
@@ -27,6 +28,7 @@ const OurPartners = () => {
                     <img src={logo8} alt="" />
                     <img src={logo9} alt="" />
                     <img src={logo10} alt="" />
+                    <img src={logo11} alt="" className="lastLogo"/>
                 </div>
             </div>
         </div>

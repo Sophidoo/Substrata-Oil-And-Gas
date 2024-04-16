@@ -401,6 +401,11 @@
 .serviceCard li{
     margin-left: 20px;
 }
+.partnerWrapper .lastLogo{
+    background-color: rgb(107, 107, 107);
+    height: 100px;
+    margin-top: 14px;
+}
 @media(max-width: 1300px){
     .overlay{
         padding: 0px 5%;
