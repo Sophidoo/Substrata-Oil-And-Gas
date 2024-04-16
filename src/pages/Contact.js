@@ -9,8 +9,14 @@ import {
 } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa6";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 
 const Contact = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

@@ -13,6 +13,7 @@ import { useEffect } from "react";
 const Home = () => {
     const navigate = useNavigate()
     const [ref, inView] = useInView();
+    
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);

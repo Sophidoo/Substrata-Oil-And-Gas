@@ -20,9 +20,9 @@ const BlogBanner = () => {
                         <div className="blogBannerContent">
                             <h3><u>Fueling Africa's Future: 5 Massive Oil and gas Projects Unveiled</u></h3>
                             <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>
-                            <small>Written by: Raphael Santos July 5, 2023</small>
+                            <small>Written by: Kayode Thomas July 5, 2023</small>
                             <div className="buttonWrap">
-                            <button>Read More</button>
+                            {/* <button>Read More</button> */}
                             </div>
                         </div>
                     </div>
@@ -32,9 +32,9 @@ const BlogBanner = () => {
                             <h3><u>Changing crude flows are creating opportunities in the Us Golf Coast</u></h3>
                             <p>Energy companies have their sights set on Africa. Here are the 5 largest oil & gas projects happening in Africa at the moment</p>
                             <small>
-                            Written by: Raphael Santos July 5, 2023</small>
+                            Written by: Kayode Thomas July 5, 2023</small>
                             <div className="buttonWrap">
-                            <button>Read More</button>
+                            {/* <button>Read More</button> */}
                             </div>
                         </div>
                     </div>

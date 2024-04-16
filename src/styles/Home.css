@@ -125,6 +125,7 @@
 .otherServices h1{
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 .ashService{
     padding: 130px 13%;
@@ -639,6 +640,9 @@
 @media(max-width: 500px){
     .overlay p{
         width: 100%;
+    }
+    .otherServicesOverlay h1{
+        font-size: 25px;
     }
     .overlay{
         height: 80vh;
